@@ -1,0 +1,213 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <script src="../js/utils/util.js"></script>
+        <script src="../js/utils/cacheUtils.js"></script>
+
+        <script src="../js/thirdparty/jquery-2.1.4.min.js"></script>
+
+        <script type="text/javascript" src="../js/thirdparty.js"></script>  
+        <script type="text/javascript" src="../js/network.js"></script>
+        <script type="text/javascript" src="../js/request.js"></script>
+        <script type="text/javascript" src="../js/toolbox.js"></script>
+        <script type="text/javascript" src="../js/wallet/wallet.js"></script>
+        <script type="text/javascript" src="../js/wallet/ethereum_wallet.js"></script>
+        <script type="text/javascript" src="../js/thirdparty/aes.js"></script>
+        <!--        <script type="text/javascript" src="../js/jaxx.js"></script>-->
+        <script type="text/javascript" src="../js/onename.js"></script>
+
+        <script lang="javascript">
+            clearAllData();
+            
+            var EncDecTest = function() {
+                this._testName = "EncDecTest";
+                this._spanOutputName = null;
+                
+                this._curTestIdx = 0;
+                this._maxTestIdx = 10000;
+                this._testFailed = false;
+                this._testsFailedLog = '[ ';
+            }
+
+            EncDecTest.prototype.initialize = function(spanOutputName, numTests) {
+                this._spanOutputName = spanOutputName;
+                this._maxTestIdx = numTests;
+            }
+            
+            //@note: @test: checking if there is an exact match for encoding and decoding random strings.
+            EncDecTest.prototype.runTest = function() {
+//                console.log('_spanOutputName :: ' + this._spanOutputName);
+//                console.log($('.encDecTestSpan') == $(this._spanOutputName));
+//                $(this._spanOutputName).text('running');
+
+                this._curTestIdx++;
+
+                if (this._curTestIdx < this._maxTestIdx + 1) {
+                    var src = thirdparty.bitcoin.crypto.sha256(thirdparty.bip39.generateMnemonic() + this._curTestIdx).toString();
+                    //                    console.log("src :: " + src);
+
+//                    console.log("this._spanOutput :: " + this._spanOutput);
+                    $(this._spanOutputName).text('[ Running Test.. ' + this._curTestIdx + '/' + this._maxTestIdx + ' :: ' + src + ' ]');
+
+                    //                    console.log(CryptoJS.AES.encrypt);
+
+                    var enc = encryptSimple(src);
+                    //                    console.log("enc :: " + enc);
+
+                    var res = decryptSimple(enc);
+                    //                    console.log("res :: " + res);
+
+                    if (src !== res) {
+                        console.log(this._testName + " :: error :: " + src);
+                        this._testsFailedLog = this._testsFailedLog + ' :: false :: ' + src;
+                        this._testFailed = true;
+                    } else {
+                        //                        // console.log("test passed :: " + src);
+                    }
+
+                    var self = this;
+                    setTimeout(function() {
+                        self.runTest();
+                    }, 10);
+                } else {
+                    if (this._testFailed === false) {
+                        $(this._spanOutputName).text('[ Passed All ' + this._maxTestIdx +' Tests ]');
+                    } else {
+                        $(this._spanOutputName).text('[ Finished Tests.. ' + this._testsFailedLog + '] ]');
+                    }
+                    
+                    setTimeout(function() {
+//                        console.log("nextTest :: " + nextTest);
+                        nextTest();
+                    }, 10);
+                }
+            }
+            
+            var CreateWalletTest = function() {
+                this._curPrototype = this;
+                this._testName = "CreateWalletTest";
+                this._spanOutputName = null;
+
+                this._mnemonic = "";
+                this._bitcoinWallet = null;
+                this._ethereumWallet = null;
+                this._curTestIdx = 0;
+                this._maxTestIdx = 10000;
+                this._testFailed = false;
+                this._testsFailedLog = '[ ';
+                
+                this._mnemonic = thirdparty.bip39.generateMnemonic();
+                this._origEthereumAddress = null;
+            }
+            
+            CreateWalletTest.prototype.initialize = function(spanOutputName, numTests) {
+                CreateWalletTest._curPrototype = this;
+                this._maxTestIdx = numTests;
+                
+                this._spanOutputName = spanOutputName;
+            }
+            
+            CreateWalletTest.prototype.runTest = function() {
+                var self = CreateWalletTest._curPrototype;
+                
+                self._curTestIdx++;
+
+                if (self._curTestIdx < self._maxTestIdx + 1) {
+//                    console.log("running test");
+//                    self._mnemonic = thirdparty.bip39.generateMnemonic();
+                    storeData('mnemonic', self._mnemonic,true);
+//                    console.log("curTestIdx :: " + self._curTestIdx + " :: " + self._mnemonic);
+                
+                    self._bitcoinWallet = new HDWallet(self._mnemonic);
+                    
+                    self._ethereumWallet = new EthereumWallet();
+                    self._ethereumWallet._unitTestPath = '../';
+                    self._ethereumWallet._finishedLoadingEthereumCallback = self.finishedLoadingEthereumCallback;
+                    self._ethereumWallet.initAndLoadAsync();
+                    self._ethereumWallet._legacy = false;
+                    
+                } else {
+                    if (self._testFailed === false) {
+                        $(self._spanOutputName).text('[ Passed All Tests ]');
+                    } else {
+                        $(self._spanOutputName)._spanOutput.text('[ Finished Tests.. ' + self._testsFailedLog + '] ]');
+                    }
+
+                    setTimeout(function() {
+                        console.log("nextTest :: " + nextTest);
+                        nextTest();
+                    }, 10);
+                }
+            }
+            
+            CreateWalletTest.prototype.finishedLoadingEthereumCallback = function() {
+                var self = CreateWalletTest._curPrototype;
+//                console.log("self :: " + self.toString());
+                
+                $(self._spanOutputName).text('[ Running Test.. ' + self._curTestIdx + '/' + self._maxTestIdx + ' :: mnemonic :: ' + self._mnemonic + " :: ethereum address :: " + self._ethereumWallet._address + ' ]');
+                
+                if (self._origEthereumAddress === null) {
+                    self._origEthereumAddress = self._ethereumWallet._address
+                }
+
+                //                    console.log(CryptoJS.AES.encrypt);
+
+                var src = self._ethereumWallet._address;
+//                var enc = encryptSimple(src);
+//                //                    console.log("enc :: " + enc);
+//
+//                var res = decryptSimple(enc);
+//                //                    console.log("res :: " + res);
+                
+                res = self._origEthereumAddress;
+
+                if (src !== res) {
+                    console.log(self._testName + " :: error :: " + src);
+                    self._testsFailedLog = self._testsFailedLog + ' :: false :: ' + src;
+                    self._testFailed = true;
+                } else {
+                    //                        // console.log("test passed :: " + src);
+                }
+
+                setTimeout(function() {
+                    self.runTest();
+                }, 10);
+            }
+
+            var m_EncDecTest = new EncDecTest();
+            var m_CreateWalletTest = new CreateWalletTest();
+
+            
+            var curTest = 0;
+            var allTests = [m_EncDecTest, m_CreateWalletTest];
+            var allTestsSpanOutputName = ['.encDecTestSpan', '.createWalletTestSpan'];
+            var allTestsNumTests = [10000, 10000];
+            
+            function startTests() {
+                curTest = 0;
+                nextTest();
+            }
+            
+            function nextTest() {
+                if (curTest < allTests.length) {
+                    console.log("running :: " + allTests[curTest]._testName);
+                    allTests[curTest].initialize(allTestsSpanOutputName[curTest], allTestsNumTests[curTest]);
+                    allTests[curTest].runTest();
+                    curTest++;
+                }
+            }
+        </script>
+        <script src="../js/wallet/hdwallet_helper.js"></script>
+    </head>
+    <body onload="startTests();">
+        <span>Enc Dec Test</span>
+        <br>
+        <span class="encDecTestSpan">[ Init ]</span>
+        <br>
+        <br>
+        <span>Create Wallet Test</span>
+        <br>
+        <span class="createWalletTestSpan">[ Init ]</span>
+    </body>
+</html>

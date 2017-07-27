@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test API</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="test-api.js" ></script>
+    <script>
+        $(document).ready(function () {
+            var adds = "XqhTfYkVcT8VJs4z6dcw1V17Gb4HYetCgd,XsTcmpoTF5MX3cvADfwXcZLS5jLgQe5DBv,XtgsTJEWMARB2sgv4ssRb1ftEC1XZxqski,XhfAg3Tm8WPNrAo3x1QzCMgE3zAmeLrUET,XyA7ivE8p4RyVCj7JBRgFsyJSg4W5jgpni,XoD6WGUsqJuWZEdpJgNVsyu73BGNRY53a8,XyGVoLi3ZTS3cTEXdvXJh7ieeGNfHU73Ck,Xn2CmbU4pAYMW6pbQeUsWC2huJdS3QFscp,XfwiBkQomwxubftAn2qD6u8g9ybTqE1wK1,XjyrujN2pvymseXvqjUQWru21FWeyxZB9w,XwxRqUrsNs8i88VNvcZXSo8RJZFjrAXrvV,Xp4SyhLA7HBWp68GXSSJNNpok2wCHx5RVf";
+
+            var apitets = new api.TestTransactions(adds);
+            apitets.downloadTransactions(function (err) {
+
+            })
+        })
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,1274 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'prune',
+1 verbose cli   '-production' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.1
+4 warn package.json Jaxx@0.0.10 Normalized value of bugs field is an empty object. Deleted.
+5 warn package.json Jaxx@0.0.10 No README data
+6 verbose unbuild node_modules\array-find-index
+7 verbose unbuild node_modules\assert-plus
+8 verbose unbuild node_modules\aws-sign2
+9 verbose unbuild node_modules\aws4
+10 verbose unbuild node_modules\bcrypt-pbkdf
+11 verbose unbuild node_modules\builtin-modules
+12 verbose unbuild node_modules\camelcase
+13 verbose unbuild node_modules\camelcase-keys
+14 verbose unbuild node_modules\caseless
+15 verbose unbuild node_modules\co
+16 verbose unbuild node_modules\currently-unhandled
+17 verbose unbuild node_modules\debug
+18 verbose unbuild node_modules\decamelize
+19 verbose unbuild node_modules\electron-download
+20 verbose unbuild node_modules\error-ex
+21 verbose unbuild node_modules\flickity-bg-lazyload
+22 verbose unbuild node_modules\flickity-as-nav-for
+23 verbose unbuild node_modules\flickity-imagesloaded
+24 verbose unbuild node_modules\forever-agent
+25 verbose unbuild node_modules\get-stdin
+26 verbose unbuild node_modules\har-schema
+27 verbose unbuild node_modules\hoek
+28 verbose unbuild node_modules\home-path
+29 verbose unbuild node_modules\hosted-git-info
+30 verbose unbuild node_modules\imagesloaded
+31 verbose unbuild node_modules\indent-string
+32 verbose unbuild node_modules\http-signature
+33 verbose unbuild node_modules\is-arrayish
+34 verbose unbuild node_modules\is-builtin-module
+35 verbose unbuild node_modules\is-finite
+36 verbose unbuild node_modules\is-typedarray
+37 verbose unbuild node_modules\isstream
+38 verbose unbuild node_modules\jodid25519
+39 verbose unbuild node_modules\jsbn
+40 verbose unbuild node_modules\json-schema
+41 verbose unbuild node_modules\json-stable-stringify
+42 verbose unbuild node_modules\json-stringify-safe
+43 verbose unbuild node_modules\jsonify
+44 verbose unbuild node_modules\loud-rejection
+45 verbose unbuild node_modules\map-obj
+46 verbose unbuild node_modules\mime-db
+47 verbose unbuild node_modules\mime-types
+48 verbose unbuild node_modules\ms
+49 verbose unbuild node_modules\mv
+50 verbose unbuild node_modules\normalize-package-data
+51 verbose unbuild node_modules\ncp
+52 verbose unbuild node_modules\oauth-sign
+53 verbose unbuild node_modules\nugget
+54 verbose unbuild node_modules\number-is-nan
+55 verbose unbuild node_modules\object-keys
+56 verbose unbuild node_modules\parse-json
+57 verbose unbuild node_modules\path-is-absolute
+58 verbose unbuild node_modules\path-exists
+59 verbose unbuild node_modules\pend
+60 verbose unbuild node_modules\pify
+61 verbose unbuild node_modules\performance-now
+62 verbose unbuild node_modules\pinkie
+63 verbose unbuild node_modules\pinkie-promise
+64 verbose unbuild node_modules\pretty-bytes
+65 verbose unbuild node_modules\punycode
+66 verbose unbuild node_modules\qs
+67 verbose unbuild node_modules\read-pkg
+68 verbose unbuild node_modules\redent
+69 verbose unbuild node_modules\repeating
+70 verbose unbuild node_modules\safe-buffer
+71 verbose unbuild node_modules\signal-exit
+72 verbose unbuild node_modules\single-line-log
+73 verbose unbuild node_modules\sntp
+74 verbose unbuild node_modules\spdx-correct
+75 verbose unbuild node_modules\spdx-expression-parse
+76 verbose unbuild node_modules\spdx-license-ids
+77 verbose unbuild node_modules\speedometer
+78 verbose unbuild node_modules\stringstream
+79 verbose unbuild node_modules\strip-indent
+80 verbose unbuild node_modules\strip-json-comments
+81 verbose unbuild node_modules\throttleit
+82 verbose unbuild node_modules\trim-newlines
+83 verbose unbuild node_modules\tough-cookie
+84 verbose unbuild node_modules\tunnel-agent
+85 verbose unbuild node_modules\tweetnacl
+86 verbose unbuild node_modules\uuid
+87 verbose unbuild node_modules\validate-npm-package-license
+88 verbose unbuild node_modules\electron-prebuilt
+89 verbose unbuild node_modules\form-data
+90 verbose unbuild node_modules\getpass
+91 verbose unbuild node_modules\har-validator
+92 verbose unbuild node_modules\hawk
+93 verbose unbuild node_modules\load-json-file
+94 verbose unbuild node_modules\meow
+95 verbose unbuild node_modules\path-type
+96 verbose unbuild node_modules\progress-stream
+97 verbose unbuild node_modules\rc
+98 verbose unbuild node_modules\read-pkg-up
+99 verbose unbuild node_modules\request
+100 verbose unbuild node_modules\rimraf
+101 verbose unbuild node_modules\jsprim
+102 verbose unbuild node_modules\sshpk
+103 verbose unbuild node_modules\verror
+104 verbose unbuild node_modules\yauzl
+105 info lifecycle aws4@1.6.0~preuninstall: aws4@1.6.0
+106 info lifecycle array-find-index@1.0.2~preuninstall: array-find-index@1.0.2
+107 info lifecycle aws-sign2@0.6.0~preuninstall: aws-sign2@0.6.0
+108 info lifecycle assert-plus@0.2.0~preuninstall: assert-plus@0.2.0
+109 info lifecycle builtin-modules@1.1.1~preuninstall: builtin-modules@1.1.1
+110 info lifecycle camelcase-keys@2.1.0~preuninstall: camelcase-keys@2.1.0
+111 info lifecycle camelcase@2.1.1~preuninstall: camelcase@2.1.1
+112 info lifecycle bcrypt-pbkdf@1.0.1~preuninstall: bcrypt-pbkdf@1.0.1
+113 info lifecycle caseless@0.12.0~preuninstall: caseless@0.12.0
+114 info lifecycle co@4.6.0~preuninstall: co@4.6.0
+115 info lifecycle currently-unhandled@0.4.1~preuninstall: currently-unhandled@0.4.1
+116 info lifecycle debug@2.6.3~preuninstall: debug@2.6.3
+117 info lifecycle decamelize@1.2.0~preuninstall: decamelize@1.2.0
+118 info lifecycle flickity-as-nav-for@2.0.1~preuninstall: flickity-as-nav-for@2.0.1
+119 info lifecycle error-ex@1.3.1~preuninstall: error-ex@1.3.1
+120 info lifecycle flickity-imagesloaded@2.0.0~preuninstall: flickity-imagesloaded@2.0.0
+121 info lifecycle flickity-bg-lazyload@1.0.0~preuninstall: flickity-bg-lazyload@1.0.0
+122 info lifecycle har-schema@1.0.5~preuninstall: har-schema@1.0.5
+123 info lifecycle get-stdin@4.0.1~preuninstall: get-stdin@4.0.1
+124 info lifecycle forever-agent@0.6.1~preuninstall: forever-agent@0.6.1
+125 info lifecycle home-path@1.0.5~preuninstall: home-path@1.0.5
+126 info lifecycle hoek@2.16.3~preuninstall: hoek@2.16.3
+127 info lifecycle imagesloaded@4.1.1~preuninstall: imagesloaded@4.1.1
+128 info lifecycle hosted-git-info@2.4.1~preuninstall: hosted-git-info@2.4.1
+129 info lifecycle indent-string@2.1.0~preuninstall: indent-string@2.1.0
+130 info lifecycle http-signature@1.1.1~preuninstall: http-signature@1.1.1
+131 info lifecycle is-builtin-module@1.0.0~preuninstall: is-builtin-module@1.0.0
+132 info lifecycle is-arrayish@0.2.1~preuninstall: is-arrayish@0.2.1
+133 info lifecycle is-finite@1.0.2~preuninstall: is-finite@1.0.2
+134 info lifecycle is-typedarray@1.0.0~preuninstall: is-typedarray@1.0.0
+135 info lifecycle isstream@0.1.2~preuninstall: isstream@0.1.2
+136 info lifecycle jsbn@0.1.1~preuninstall: jsbn@0.1.1
+137 info lifecycle json-schema@0.2.3~preuninstall: json-schema@0.2.3
+138 info lifecycle jodid25519@1.0.2~preuninstall: jodid25519@1.0.2
+139 info lifecycle json-stable-stringify@1.0.1~preuninstall: json-stable-stringify@1.0.1
+140 info lifecycle json-stringify-safe@5.0.1~preuninstall: json-stringify-safe@5.0.1
+141 info lifecycle jsonify@0.0.0~preuninstall: jsonify@0.0.0
+142 info lifecycle loud-rejection@1.6.0~preuninstall: loud-rejection@1.6.0
+143 info lifecycle map-obj@1.0.1~preuninstall: map-obj@1.0.1
+144 info lifecycle mime-db@1.27.0~preuninstall: mime-db@1.27.0
+145 info lifecycle ms@0.7.2~preuninstall: ms@0.7.2
+146 info lifecycle mime-types@2.1.15~preuninstall: mime-types@2.1.15
+147 info lifecycle mv@2.1.1~preuninstall: mv@2.1.1
+148 info lifecycle normalize-package-data@2.3.6~preuninstall: normalize-package-data@2.3.6
+149 info lifecycle oauth-sign@0.8.2~preuninstall: oauth-sign@0.8.2
+150 info lifecycle object-keys@0.4.0~preuninstall: object-keys@0.4.0
+151 info lifecycle path-exists@1.0.0~preuninstall: path-exists@1.0.0
+152 info lifecycle number-is-nan@1.0.1~preuninstall: number-is-nan@1.0.1
+153 info lifecycle parse-json@2.2.0~preuninstall: parse-json@2.2.0
+154 info lifecycle path-is-absolute@1.0.1~preuninstall: path-is-absolute@1.0.1
+155 info lifecycle pify@2.3.0~preuninstall: pify@2.3.0
+156 info lifecycle pend@1.2.0~preuninstall: pend@1.2.0
+157 info lifecycle performance-now@0.2.0~preuninstall: performance-now@0.2.0
+158 info lifecycle pinkie@2.0.4~preuninstall: pinkie@2.0.4
+159 info lifecycle pinkie-promise@2.0.1~preuninstall: pinkie-promise@2.0.1
+160 info lifecycle punycode@1.4.1~preuninstall: punycode@1.4.1
+161 info lifecycle qs@6.4.0~preuninstall: qs@6.4.0
+162 info lifecycle read-pkg@1.1.0~preuninstall: read-pkg@1.1.0
+163 info lifecycle repeating@2.0.1~preuninstall: repeating@2.0.1
+164 info lifecycle redent@1.0.0~preuninstall: redent@1.0.0
+165 info lifecycle safe-buffer@5.0.1~preuninstall: safe-buffer@5.0.1
+166 info lifecycle signal-exit@3.0.2~preuninstall: signal-exit@3.0.2
+167 info lifecycle single-line-log@0.4.1~preuninstall: single-line-log@0.4.1
+168 info lifecycle sntp@1.0.9~preuninstall: sntp@1.0.9
+169 info lifecycle spdx-correct@1.0.2~preuninstall: spdx-correct@1.0.2
+170 info lifecycle spdx-expression-parse@1.0.4~preuninstall: spdx-expression-parse@1.0.4
+171 info lifecycle spdx-license-ids@1.2.2~preuninstall: spdx-license-ids@1.2.2
+172 info lifecycle speedometer@0.1.4~preuninstall: speedometer@0.1.4
+173 info lifecycle stringstream@0.0.5~preuninstall: stringstream@0.0.5
+174 info lifecycle trim-newlines@1.0.0~preuninstall: trim-newlines@1.0.0
+175 info lifecycle strip-json-comments@2.0.1~preuninstall: strip-json-comments@2.0.1
+176 info lifecycle tough-cookie@2.3.2~preuninstall: tough-cookie@2.3.2
+177 info lifecycle throttleit@0.0.2~preuninstall: throttleit@0.0.2
+178 info lifecycle tweetnacl@0.14.5~preuninstall: tweetnacl@0.14.5
+179 info lifecycle tunnel-agent@0.6.0~preuninstall: tunnel-agent@0.6.0
+180 info lifecycle validate-npm-package-license@3.0.1~preuninstall: validate-npm-package-license@3.0.1
+181 info lifecycle form-data@2.1.2~preuninstall: form-data@2.1.2
+182 info lifecycle getpass@0.1.6~preuninstall: getpass@0.1.6
+183 info lifecycle har-validator@4.2.1~preuninstall: har-validator@4.2.1
+184 info lifecycle hawk@3.1.3~preuninstall: hawk@3.1.3
+185 info lifecycle meow@3.7.0~preuninstall: meow@3.7.0
+186 info lifecycle load-json-file@1.1.0~preuninstall: load-json-file@1.1.0
+187 info lifecycle path-type@1.1.0~preuninstall: path-type@1.1.0
+188 info lifecycle progress-stream@1.2.0~preuninstall: progress-stream@1.2.0
+189 info lifecycle read-pkg-up@1.0.1~preuninstall: read-pkg-up@1.0.1
+190 info lifecycle request@2.81.0~preuninstall: request@2.81.0
+191 info lifecycle yauzl@2.4.1~preuninstall: yauzl@2.4.1
+192 info lifecycle jsprim@1.4.0~preuninstall: jsprim@1.4.0
+193 info lifecycle verror@1.3.6~preuninstall: verror@1.3.6
+194 silly lifecycle aws4@1.6.0~preuninstall: no script for preuninstall, continuing
+195 silly lifecycle array-find-index@1.0.2~preuninstall: no script for preuninstall, continuing
+196 silly lifecycle aws-sign2@0.6.0~preuninstall: no script for preuninstall, continuing
+197 silly lifecycle assert-plus@0.2.0~preuninstall: no script for preuninstall, continuing
+198 silly lifecycle builtin-modules@1.1.1~preuninstall: no script for preuninstall, continuing
+199 silly lifecycle camelcase-keys@2.1.0~preuninstall: no script for preuninstall, continuing
+200 silly lifecycle camelcase@2.1.1~preuninstall: no script for preuninstall, continuing
+201 silly lifecycle bcrypt-pbkdf@1.0.1~preuninstall: no script for preuninstall, continuing
+202 silly lifecycle caseless@0.12.0~preuninstall: no script for preuninstall, continuing
+203 silly lifecycle co@4.6.0~preuninstall: no script for preuninstall, continuing
+204 silly lifecycle currently-unhandled@0.4.1~preuninstall: no script for preuninstall, continuing
+205 silly lifecycle debug@2.6.3~preuninstall: no script for preuninstall, continuing
+206 silly lifecycle decamelize@1.2.0~preuninstall: no script for preuninstall, continuing
+207 info lifecycle electron-download@2.2.1~preuninstall: electron-download@2.2.1
+208 silly lifecycle flickity-as-nav-for@2.0.1~preuninstall: no script for preuninstall, continuing
+209 silly lifecycle error-ex@1.3.1~preuninstall: no script for preuninstall, continuing
+210 silly lifecycle flickity-imagesloaded@2.0.0~preuninstall: no script for preuninstall, continuing
+211 silly lifecycle flickity-bg-lazyload@1.0.0~preuninstall: no script for preuninstall, continuing
+212 silly lifecycle har-schema@1.0.5~preuninstall: no script for preuninstall, continuing
+213 silly lifecycle get-stdin@4.0.1~preuninstall: no script for preuninstall, continuing
+214 silly lifecycle forever-agent@0.6.1~preuninstall: no script for preuninstall, continuing
+215 silly lifecycle home-path@1.0.5~preuninstall: no script for preuninstall, continuing
+216 silly lifecycle hoek@2.16.3~preuninstall: no script for preuninstall, continuing
+217 silly lifecycle imagesloaded@4.1.1~preuninstall: no script for preuninstall, continuing
+218 silly lifecycle hosted-git-info@2.4.1~preuninstall: no script for preuninstall, continuing
+219 silly lifecycle indent-string@2.1.0~preuninstall: no script for preuninstall, continuing
+220 silly lifecycle http-signature@1.1.1~preuninstall: no script for preuninstall, continuing
+221 silly lifecycle is-builtin-module@1.0.0~preuninstall: no script for preuninstall, continuing
+222 silly lifecycle is-arrayish@0.2.1~preuninstall: no script for preuninstall, continuing
+223 silly lifecycle is-finite@1.0.2~preuninstall: no script for preuninstall, continuing
+224 silly lifecycle is-typedarray@1.0.0~preuninstall: no script for preuninstall, continuing
+225 silly lifecycle isstream@0.1.2~preuninstall: no script for preuninstall, continuing
+226 silly lifecycle jsbn@0.1.1~preuninstall: no script for preuninstall, continuing
+227 silly lifecycle json-schema@0.2.3~preuninstall: no script for preuninstall, continuing
+228 silly lifecycle jodid25519@1.0.2~preuninstall: no script for preuninstall, continuing
+229 silly lifecycle json-stable-stringify@1.0.1~preuninstall: no script for preuninstall, continuing
+230 silly lifecycle json-stringify-safe@5.0.1~preuninstall: no script for preuninstall, continuing
+231 silly lifecycle jsonify@0.0.0~preuninstall: no script for preuninstall, continuing
+232 silly lifecycle loud-rejection@1.6.0~preuninstall: no script for preuninstall, continuing
+233 silly lifecycle map-obj@1.0.1~preuninstall: no script for preuninstall, continuing
+234 silly lifecycle mime-db@1.27.0~preuninstall: no script for preuninstall, continuing
+235 silly lifecycle ms@0.7.2~preuninstall: no script for preuninstall, continuing
+236 silly lifecycle mime-types@2.1.15~preuninstall: no script for preuninstall, continuing
+237 silly lifecycle mv@2.1.1~preuninstall: no script for preuninstall, continuing
+238 silly lifecycle normalize-package-data@2.3.6~preuninstall: no script for preuninstall, continuing
+239 silly lifecycle oauth-sign@0.8.2~preuninstall: no script for preuninstall, continuing
+240 info lifecycle ncp@2.0.0~preuninstall: ncp@2.0.0
+241 info lifecycle nugget@1.6.2~preuninstall: nugget@1.6.2
+242 silly lifecycle object-keys@0.4.0~preuninstall: no script for preuninstall, continuing
+243 silly lifecycle path-exists@1.0.0~preuninstall: no script for preuninstall, continuing
+244 silly lifecycle number-is-nan@1.0.1~preuninstall: no script for preuninstall, continuing
+245 silly lifecycle parse-json@2.2.0~preuninstall: no script for preuninstall, continuing
+246 silly lifecycle path-is-absolute@1.0.1~preuninstall: no script for preuninstall, continuing
+247 silly lifecycle pify@2.3.0~preuninstall: no script for preuninstall, continuing
+248 silly lifecycle pend@1.2.0~preuninstall: no script for preuninstall, continuing
+249 silly lifecycle performance-now@0.2.0~preuninstall: no script for preuninstall, continuing
+250 silly lifecycle pinkie@2.0.4~preuninstall: no script for preuninstall, continuing
+251 silly lifecycle pinkie-promise@2.0.1~preuninstall: no script for preuninstall, continuing
+252 info lifecycle pretty-bytes@1.0.4~preuninstall: pretty-bytes@1.0.4
+253 silly lifecycle punycode@1.4.1~preuninstall: no script for preuninstall, continuing
+254 silly lifecycle qs@6.4.0~preuninstall: no script for preuninstall, continuing
+255 silly lifecycle read-pkg@1.1.0~preuninstall: no script for preuninstall, continuing
+256 silly lifecycle repeating@2.0.1~preuninstall: no script for preuninstall, continuing
+257 silly lifecycle redent@1.0.0~preuninstall: no script for preuninstall, continuing
+258 silly lifecycle safe-buffer@5.0.1~preuninstall: no script for preuninstall, continuing
+259 silly lifecycle signal-exit@3.0.2~preuninstall: no script for preuninstall, continuing
+260 silly lifecycle single-line-log@0.4.1~preuninstall: no script for preuninstall, continuing
+261 silly lifecycle sntp@1.0.9~preuninstall: no script for preuninstall, continuing
+262 silly lifecycle spdx-correct@1.0.2~preuninstall: no script for preuninstall, continuing
+263 silly lifecycle spdx-expression-parse@1.0.4~preuninstall: no script for preuninstall, continuing
+264 silly lifecycle spdx-license-ids@1.2.2~preuninstall: no script for preuninstall, continuing
+265 silly lifecycle speedometer@0.1.4~preuninstall: no script for preuninstall, continuing
+266 silly lifecycle stringstream@0.0.5~preuninstall: no script for preuninstall, continuing
+267 info lifecycle strip-indent@1.0.1~preuninstall: strip-indent@1.0.1
+268 silly lifecycle trim-newlines@1.0.0~preuninstall: no script for preuninstall, continuing
+269 silly lifecycle strip-json-comments@2.0.1~preuninstall: no script for preuninstall, continuing
+270 silly lifecycle tough-cookie@2.3.2~preuninstall: no script for preuninstall, continuing
+271 silly lifecycle throttleit@0.0.2~preuninstall: no script for preuninstall, continuing
+272 silly lifecycle tweetnacl@0.14.5~preuninstall: no script for preuninstall, continuing
+273 silly lifecycle tunnel-agent@0.6.0~preuninstall: no script for preuninstall, continuing
+274 info lifecycle uuid@3.0.1~preuninstall: uuid@3.0.1
+275 info lifecycle electron-prebuilt@0.36.12~preuninstall: electron-prebuilt@0.36.12
+276 silly lifecycle validate-npm-package-license@3.0.1~preuninstall: no script for preuninstall, continuing
+277 silly lifecycle form-data@2.1.2~preuninstall: no script for preuninstall, continuing
+278 silly lifecycle getpass@0.1.6~preuninstall: no script for preuninstall, continuing
+279 silly lifecycle har-validator@4.2.1~preuninstall: no script for preuninstall, continuing
+280 silly lifecycle hawk@3.1.3~preuninstall: no script for preuninstall, continuing
+281 silly lifecycle meow@3.7.0~preuninstall: no script for preuninstall, continuing
+282 silly lifecycle load-json-file@1.1.0~preuninstall: no script for preuninstall, continuing
+283 silly lifecycle path-type@1.1.0~preuninstall: no script for preuninstall, continuing
+284 silly lifecycle progress-stream@1.2.0~preuninstall: no script for preuninstall, continuing
+285 info lifecycle rc@1.2.0~preuninstall: rc@1.2.0
+286 silly lifecycle read-pkg-up@1.0.1~preuninstall: no script for preuninstall, continuing
+287 info lifecycle rimraf@2.4.5~preuninstall: rimraf@2.4.5
+288 silly lifecycle request@2.81.0~preuninstall: no script for preuninstall, continuing
+289 info lifecycle sshpk@1.11.0~preuninstall: sshpk@1.11.0
+290 silly lifecycle yauzl@2.4.1~preuninstall: no script for preuninstall, continuing
+291 silly lifecycle jsprim@1.4.0~preuninstall: no script for preuninstall, continuing
+292 silly lifecycle verror@1.3.6~preuninstall: no script for preuninstall, continuing
+293 info lifecycle aws4@1.6.0~uninstall: aws4@1.6.0
+294 info lifecycle array-find-index@1.0.2~uninstall: array-find-index@1.0.2
+295 info lifecycle aws-sign2@0.6.0~uninstall: aws-sign2@0.6.0
+296 info lifecycle assert-plus@0.2.0~uninstall: assert-plus@0.2.0
+297 info lifecycle builtin-modules@1.1.1~uninstall: builtin-modules@1.1.1
+298 info lifecycle camelcase-keys@2.1.0~uninstall: camelcase-keys@2.1.0
+299 info lifecycle camelcase@2.1.1~uninstall: camelcase@2.1.1
+300 info lifecycle bcrypt-pbkdf@1.0.1~uninstall: bcrypt-pbkdf@1.0.1
+301 info lifecycle caseless@0.12.0~uninstall: caseless@0.12.0
+302 info lifecycle co@4.6.0~uninstall: co@4.6.0
+303 info lifecycle currently-unhandled@0.4.1~uninstall: currently-unhandled@0.4.1
+304 info lifecycle debug@2.6.3~uninstall: debug@2.6.3
+305 info lifecycle decamelize@1.2.0~uninstall: decamelize@1.2.0
+306 silly lifecycle electron-download@2.2.1~preuninstall: no script for preuninstall, continuing
+307 info lifecycle flickity-as-nav-for@2.0.1~uninstall: flickity-as-nav-for@2.0.1
+308 info lifecycle error-ex@1.3.1~uninstall: error-ex@1.3.1
+309 info lifecycle flickity-imagesloaded@2.0.0~uninstall: flickity-imagesloaded@2.0.0
+310 info lifecycle flickity-bg-lazyload@1.0.0~uninstall: flickity-bg-lazyload@1.0.0
+311 info lifecycle har-schema@1.0.5~uninstall: har-schema@1.0.5
+312 info lifecycle get-stdin@4.0.1~uninstall: get-stdin@4.0.1
+313 info lifecycle forever-agent@0.6.1~uninstall: forever-agent@0.6.1
+314 info lifecycle home-path@1.0.5~uninstall: home-path@1.0.5
+315 info lifecycle hoek@2.16.3~uninstall: hoek@2.16.3
+316 info lifecycle imagesloaded@4.1.1~uninstall: imagesloaded@4.1.1
+317 info lifecycle hosted-git-info@2.4.1~uninstall: hosted-git-info@2.4.1
+318 info lifecycle indent-string@2.1.0~uninstall: indent-string@2.1.0
+319 info lifecycle http-signature@1.1.1~uninstall: http-signature@1.1.1
+320 info lifecycle is-builtin-module@1.0.0~uninstall: is-builtin-module@1.0.0
+321 info lifecycle is-arrayish@0.2.1~uninstall: is-arrayish@0.2.1
+322 info lifecycle is-finite@1.0.2~uninstall: is-finite@1.0.2
+323 info lifecycle is-typedarray@1.0.0~uninstall: is-typedarray@1.0.0
+324 info lifecycle isstream@0.1.2~uninstall: isstream@0.1.2
+325 info lifecycle jsbn@0.1.1~uninstall: jsbn@0.1.1
+326 info lifecycle json-schema@0.2.3~uninstall: json-schema@0.2.3
+327 info lifecycle jodid25519@1.0.2~uninstall: jodid25519@1.0.2
+328 info lifecycle json-stable-stringify@1.0.1~uninstall: json-stable-stringify@1.0.1
+329 info lifecycle json-stringify-safe@5.0.1~uninstall: json-stringify-safe@5.0.1
+330 info lifecycle jsonify@0.0.0~uninstall: jsonify@0.0.0
+331 info lifecycle loud-rejection@1.6.0~uninstall: loud-rejection@1.6.0
+332 info lifecycle map-obj@1.0.1~uninstall: map-obj@1.0.1
+333 info lifecycle mime-db@1.27.0~uninstall: mime-db@1.27.0
+334 info lifecycle ms@0.7.2~uninstall: ms@0.7.2
+335 info lifecycle mime-types@2.1.15~uninstall: mime-types@2.1.15
+336 info lifecycle mv@2.1.1~uninstall: mv@2.1.1
+337 info lifecycle normalize-package-data@2.3.6~uninstall: normalize-package-data@2.3.6
+338 info lifecycle oauth-sign@0.8.2~uninstall: oauth-sign@0.8.2
+339 silly lifecycle ncp@2.0.0~preuninstall: no script for preuninstall, continuing
+340 silly lifecycle nugget@1.6.2~preuninstall: no script for preuninstall, continuing
+341 info lifecycle object-keys@0.4.0~uninstall: object-keys@0.4.0
+342 info lifecycle path-exists@1.0.0~uninstall: path-exists@1.0.0
+343 info lifecycle number-is-nan@1.0.1~uninstall: number-is-nan@1.0.1
+344 info lifecycle parse-json@2.2.0~uninstall: parse-json@2.2.0
+345 info lifecycle path-is-absolute@1.0.1~uninstall: path-is-absolute@1.0.1
+346 info lifecycle pify@2.3.0~uninstall: pify@2.3.0
+347 info lifecycle pend@1.2.0~uninstall: pend@1.2.0
+348 info lifecycle performance-now@0.2.0~uninstall: performance-now@0.2.0
+349 info lifecycle pinkie@2.0.4~uninstall: pinkie@2.0.4
+350 info lifecycle pinkie-promise@2.0.1~uninstall: pinkie-promise@2.0.1
+351 silly lifecycle pretty-bytes@1.0.4~preuninstall: no script for preuninstall, continuing
+352 info lifecycle punycode@1.4.1~uninstall: punycode@1.4.1
+353 info lifecycle qs@6.4.0~uninstall: qs@6.4.0
+354 info lifecycle read-pkg@1.1.0~uninstall: read-pkg@1.1.0
+355 info lifecycle repeating@2.0.1~uninstall: repeating@2.0.1
+356 info lifecycle redent@1.0.0~uninstall: redent@1.0.0
+357 info lifecycle safe-buffer@5.0.1~uninstall: safe-buffer@5.0.1
+358 info lifecycle signal-exit@3.0.2~uninstall: signal-exit@3.0.2
+359 info lifecycle single-line-log@0.4.1~uninstall: single-line-log@0.4.1
+360 info lifecycle sntp@1.0.9~uninstall: sntp@1.0.9
+361 info lifecycle spdx-correct@1.0.2~uninstall: spdx-correct@1.0.2
+362 info lifecycle spdx-expression-parse@1.0.4~uninstall: spdx-expression-parse@1.0.4
+363 info lifecycle spdx-license-ids@1.2.2~uninstall: spdx-license-ids@1.2.2
+364 info lifecycle speedometer@0.1.4~uninstall: speedometer@0.1.4
+365 info lifecycle stringstream@0.0.5~uninstall: stringstream@0.0.5
+366 silly lifecycle strip-indent@1.0.1~preuninstall: no script for preuninstall, continuing
+367 info lifecycle trim-newlines@1.0.0~uninstall: trim-newlines@1.0.0
+368 info lifecycle strip-json-comments@2.0.1~uninstall: strip-json-comments@2.0.1
+369 info lifecycle tough-cookie@2.3.2~uninstall: tough-cookie@2.3.2
+370 info lifecycle throttleit@0.0.2~uninstall: throttleit@0.0.2
+371 info lifecycle tweetnacl@0.14.5~uninstall: tweetnacl@0.14.5
+372 info lifecycle tunnel-agent@0.6.0~uninstall: tunnel-agent@0.6.0
+373 silly lifecycle uuid@3.0.1~preuninstall: no script for preuninstall, continuing
+374 silly lifecycle electron-prebuilt@0.36.12~preuninstall: no script for preuninstall, continuing
+375 info lifecycle validate-npm-package-license@3.0.1~uninstall: validate-npm-package-license@3.0.1
+376 info lifecycle form-data@2.1.2~uninstall: form-data@2.1.2
+377 info lifecycle getpass@0.1.6~uninstall: getpass@0.1.6
+378 info lifecycle har-validator@4.2.1~uninstall: har-validator@4.2.1
+379 info lifecycle hawk@3.1.3~uninstall: hawk@3.1.3
+380 info lifecycle meow@3.7.0~uninstall: meow@3.7.0
+381 info lifecycle load-json-file@1.1.0~uninstall: load-json-file@1.1.0
+382 info lifecycle path-type@1.1.0~uninstall: path-type@1.1.0
+383 info lifecycle progress-stream@1.2.0~uninstall: progress-stream@1.2.0
+384 silly lifecycle rc@1.2.0~preuninstall: no script for preuninstall, continuing
+385 info lifecycle read-pkg-up@1.0.1~uninstall: read-pkg-up@1.0.1
+386 silly lifecycle rimraf@2.4.5~preuninstall: no script for preuninstall, continuing
+387 info lifecycle request@2.81.0~uninstall: request@2.81.0
+388 silly lifecycle sshpk@1.11.0~preuninstall: no script for preuninstall, continuing
+389 info lifecycle yauzl@2.4.1~uninstall: yauzl@2.4.1
+390 info lifecycle jsprim@1.4.0~uninstall: jsprim@1.4.0
+391 info lifecycle verror@1.3.6~uninstall: verror@1.3.6
+392 silly lifecycle aws4@1.6.0~uninstall: no script for uninstall, continuing
+393 silly lifecycle array-find-index@1.0.2~uninstall: no script for uninstall, continuing
+394 silly lifecycle aws-sign2@0.6.0~uninstall: no script for uninstall, continuing
+395 silly lifecycle assert-plus@0.2.0~uninstall: no script for uninstall, continuing
+396 silly lifecycle builtin-modules@1.1.1~uninstall: no script for uninstall, continuing
+397 silly lifecycle camelcase-keys@2.1.0~uninstall: no script for uninstall, continuing
+398 silly lifecycle camelcase@2.1.1~uninstall: no script for uninstall, continuing
+399 silly lifecycle bcrypt-pbkdf@1.0.1~uninstall: no script for uninstall, continuing
+400 silly lifecycle caseless@0.12.0~uninstall: no script for uninstall, continuing
+401 silly lifecycle co@4.6.0~uninstall: no script for uninstall, continuing
+402 silly lifecycle debug@2.6.3~uninstall: no script for uninstall, continuing
+403 silly lifecycle currently-unhandled@0.4.1~uninstall: no script for uninstall, continuing
+404 silly lifecycle decamelize@1.2.0~uninstall: no script for uninstall, continuing
+405 info lifecycle electron-download@2.2.1~uninstall: electron-download@2.2.1
+406 silly lifecycle flickity-as-nav-for@2.0.1~uninstall: no script for uninstall, continuing
+407 silly lifecycle error-ex@1.3.1~uninstall: no script for uninstall, continuing
+408 silly lifecycle flickity-imagesloaded@2.0.0~uninstall: no script for uninstall, continuing
+409 silly lifecycle flickity-bg-lazyload@1.0.0~uninstall: no script for uninstall, continuing
+410 silly lifecycle har-schema@1.0.5~uninstall: no script for uninstall, continuing
+411 silly lifecycle get-stdin@4.0.1~uninstall: no script for uninstall, continuing
+412 silly lifecycle forever-agent@0.6.1~uninstall: no script for uninstall, continuing
+413 silly lifecycle home-path@1.0.5~uninstall: no script for uninstall, continuing
+414 silly lifecycle hoek@2.16.3~uninstall: no script for uninstall, continuing
+415 silly lifecycle imagesloaded@4.1.1~uninstall: no script for uninstall, continuing
+416 silly lifecycle http-signature@1.1.1~uninstall: no script for uninstall, continuing
+417 silly lifecycle hosted-git-info@2.4.1~uninstall: no script for uninstall, continuing
+418 silly lifecycle indent-string@2.1.0~uninstall: no script for uninstall, continuing
+419 silly lifecycle is-builtin-module@1.0.0~uninstall: no script for uninstall, continuing
+420 silly lifecycle is-arrayish@0.2.1~uninstall: no script for uninstall, continuing
+421 silly lifecycle is-finite@1.0.2~uninstall: no script for uninstall, continuing
+422 silly lifecycle is-typedarray@1.0.0~uninstall: no script for uninstall, continuing
+423 silly lifecycle isstream@0.1.2~uninstall: no script for uninstall, continuing
+424 silly lifecycle jsbn@0.1.1~uninstall: no script for uninstall, continuing
+425 silly lifecycle json-schema@0.2.3~uninstall: no script for uninstall, continuing
+426 silly lifecycle jodid25519@1.0.2~uninstall: no script for uninstall, continuing
+427 silly lifecycle json-stable-stringify@1.0.1~uninstall: no script for uninstall, continuing
+428 silly lifecycle json-stringify-safe@5.0.1~uninstall: no script for uninstall, continuing
+429 silly lifecycle loud-rejection@1.6.0~uninstall: no script for uninstall, continuing
+430 silly lifecycle jsonify@0.0.0~uninstall: no script for uninstall, continuing
+431 silly lifecycle map-obj@1.0.1~uninstall: no script for uninstall, continuing
+432 silly lifecycle mime-db@1.27.0~uninstall: no script for uninstall, continuing
+433 silly lifecycle ms@0.7.2~uninstall: no script for uninstall, continuing
+434 silly lifecycle mime-types@2.1.15~uninstall: no script for uninstall, continuing
+435 silly lifecycle mv@2.1.1~uninstall: no script for uninstall, continuing
+436 silly lifecycle normalize-package-data@2.3.6~uninstall: no script for uninstall, continuing
+437 silly lifecycle oauth-sign@0.8.2~uninstall: no script for uninstall, continuing
+438 info lifecycle ncp@2.0.0~uninstall: ncp@2.0.0
+439 info lifecycle nugget@1.6.2~uninstall: nugget@1.6.2
+440 silly lifecycle object-keys@0.4.0~uninstall: no script for uninstall, continuing
+441 silly lifecycle path-exists@1.0.0~uninstall: no script for uninstall, continuing
+442 silly lifecycle number-is-nan@1.0.1~uninstall: no script for uninstall, continuing
+443 silly lifecycle path-is-absolute@1.0.1~uninstall: no script for uninstall, continuing
+444 silly lifecycle parse-json@2.2.0~uninstall: no script for uninstall, continuing
+445 silly lifecycle pify@2.3.0~uninstall: no script for uninstall, continuing
+446 silly lifecycle pend@1.2.0~uninstall: no script for uninstall, continuing
+447 silly lifecycle performance-now@0.2.0~uninstall: no script for uninstall, continuing
+448 silly lifecycle pinkie@2.0.4~uninstall: no script for uninstall, continuing
+449 silly lifecycle pinkie-promise@2.0.1~uninstall: no script for uninstall, continuing
+450 info lifecycle pretty-bytes@1.0.4~uninstall: pretty-bytes@1.0.4
+451 silly lifecycle punycode@1.4.1~uninstall: no script for uninstall, continuing
+452 silly lifecycle qs@6.4.0~uninstall: no script for uninstall, continuing
+453 silly lifecycle read-pkg@1.1.0~uninstall: no script for uninstall, continuing
+454 silly lifecycle repeating@2.0.1~uninstall: no script for uninstall, continuing
+455 silly lifecycle redent@1.0.0~uninstall: no script for uninstall, continuing
+456 silly lifecycle safe-buffer@5.0.1~uninstall: no script for uninstall, continuing
+457 silly lifecycle signal-exit@3.0.2~uninstall: no script for uninstall, continuing
+458 silly lifecycle single-line-log@0.4.1~uninstall: no script for uninstall, continuing
+459 silly lifecycle sntp@1.0.9~uninstall: no script for uninstall, continuing
+460 silly lifecycle spdx-correct@1.0.2~uninstall: no script for uninstall, continuing
+461 silly lifecycle spdx-expression-parse@1.0.4~uninstall: no script for uninstall, continuing
+462 silly lifecycle spdx-license-ids@1.2.2~uninstall: no script for uninstall, continuing
+463 silly lifecycle speedometer@0.1.4~uninstall: no script for uninstall, continuing
+464 silly lifecycle stringstream@0.0.5~uninstall: no script for uninstall, continuing
+465 info lifecycle strip-indent@1.0.1~uninstall: strip-indent@1.0.1
+466 silly lifecycle trim-newlines@1.0.0~uninstall: no script for uninstall, continuing
+467 silly lifecycle strip-json-comments@2.0.1~uninstall: no script for uninstall, continuing
+468 silly lifecycle tough-cookie@2.3.2~uninstall: no script for uninstall, continuing
+469 silly lifecycle throttleit@0.0.2~uninstall: no script for uninstall, continuing
+470 silly lifecycle tweetnacl@0.14.5~uninstall: no script for uninstall, continuing
+471 silly lifecycle tunnel-agent@0.6.0~uninstall: no script for uninstall, continuing
+472 info lifecycle uuid@3.0.1~uninstall: uuid@3.0.1
+473 info lifecycle electron-prebuilt@0.36.12~uninstall: electron-prebuilt@0.36.12
+474 silly lifecycle validate-npm-package-license@3.0.1~uninstall: no script for uninstall, continuing
+475 silly lifecycle form-data@2.1.2~uninstall: no script for uninstall, continuing
+476 silly lifecycle getpass@0.1.6~uninstall: no script for uninstall, continuing
+477 silly lifecycle har-validator@4.2.1~uninstall: no script for uninstall, continuing
+478 silly lifecycle hawk@3.1.3~uninstall: no script for uninstall, continuing
+479 silly lifecycle load-json-file@1.1.0~uninstall: no script for uninstall, continuing
+480 silly lifecycle meow@3.7.0~uninstall: no script for uninstall, continuing
+481 silly lifecycle path-type@1.1.0~uninstall: no script for uninstall, continuing
+482 silly lifecycle progress-stream@1.2.0~uninstall: no script for uninstall, continuing
+483 info lifecycle rc@1.2.0~uninstall: rc@1.2.0
+484 silly lifecycle read-pkg-up@1.0.1~uninstall: no script for uninstall, continuing
+485 info lifecycle rimraf@2.4.5~uninstall: rimraf@2.4.5
+486 silly lifecycle request@2.81.0~uninstall: no script for uninstall, continuing
+487 info lifecycle sshpk@1.11.0~uninstall: sshpk@1.11.0
+488 silly lifecycle yauzl@2.4.1~uninstall: no script for uninstall, continuing
+489 silly lifecycle jsprim@1.4.0~uninstall: no script for uninstall, continuing
+490 silly lifecycle verror@1.3.6~uninstall: no script for uninstall, continuing
+491 verbose unbuild rmStuff aws4@1.6.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+492 info lifecycle aws4@1.6.0~postuninstall: aws4@1.6.0
+493 verbose unbuild rmStuff array-find-index@1.0.2 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+494 info lifecycle array-find-index@1.0.2~postuninstall: array-find-index@1.0.2
+495 verbose unbuild rmStuff aws-sign2@0.6.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+496 info lifecycle aws-sign2@0.6.0~postuninstall: aws-sign2@0.6.0
+497 verbose unbuild rmStuff assert-plus@0.2.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+498 info lifecycle assert-plus@0.2.0~postuninstall: assert-plus@0.2.0
+499 verbose unbuild rmStuff builtin-modules@1.1.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+500 info lifecycle builtin-modules@1.1.1~postuninstall: builtin-modules@1.1.1
+501 verbose unbuild rmStuff camelcase-keys@2.1.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+502 info lifecycle camelcase-keys@2.1.0~postuninstall: camelcase-keys@2.1.0
+503 verbose unbuild rmStuff camelcase@2.1.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+504 info lifecycle camelcase@2.1.1~postuninstall: camelcase@2.1.1
+505 verbose unbuild rmStuff bcrypt-pbkdf@1.0.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+506 info lifecycle bcrypt-pbkdf@1.0.1~postuninstall: bcrypt-pbkdf@1.0.1
+507 verbose unbuild rmStuff caseless@0.12.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+508 info lifecycle caseless@0.12.0~postuninstall: caseless@0.12.0
+509 verbose unbuild rmStuff co@4.6.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+510 info lifecycle co@4.6.0~postuninstall: co@4.6.0
+511 verbose unbuild rmStuff debug@2.6.3 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+512 info lifecycle debug@2.6.3~postuninstall: debug@2.6.3
+513 verbose unbuild rmStuff currently-unhandled@0.4.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+514 info lifecycle currently-unhandled@0.4.1~postuninstall: currently-unhandled@0.4.1
+515 verbose unbuild rmStuff decamelize@1.2.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+516 info lifecycle decamelize@1.2.0~postuninstall: decamelize@1.2.0
+517 silly lifecycle electron-download@2.2.1~uninstall: no script for uninstall, continuing
+518 verbose unbuild rmStuff flickity-as-nav-for@2.0.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+519 info lifecycle flickity-as-nav-for@2.0.1~postuninstall: flickity-as-nav-for@2.0.1
+520 verbose unbuild rmStuff error-ex@1.3.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+521 info lifecycle error-ex@1.3.1~postuninstall: error-ex@1.3.1
+522 verbose unbuild rmStuff flickity-imagesloaded@2.0.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+523 info lifecycle flickity-imagesloaded@2.0.0~postuninstall: flickity-imagesloaded@2.0.0
+524 verbose unbuild rmStuff flickity-bg-lazyload@1.0.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+525 info lifecycle flickity-bg-lazyload@1.0.0~postuninstall: flickity-bg-lazyload@1.0.0
+526 verbose unbuild rmStuff har-schema@1.0.5 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+527 info lifecycle har-schema@1.0.5~postuninstall: har-schema@1.0.5
+528 verbose unbuild rmStuff get-stdin@4.0.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+529 info lifecycle get-stdin@4.0.1~postuninstall: get-stdin@4.0.1
+530 verbose unbuild rmStuff forever-agent@0.6.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+531 info lifecycle forever-agent@0.6.1~postuninstall: forever-agent@0.6.1
+532 verbose unbuild rmStuff home-path@1.0.5 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+533 info lifecycle home-path@1.0.5~postuninstall: home-path@1.0.5
+534 verbose unbuild rmStuff hoek@2.16.3 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+535 info lifecycle hoek@2.16.3~postuninstall: hoek@2.16.3
+536 verbose unbuild rmStuff imagesloaded@4.1.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+537 info lifecycle imagesloaded@4.1.1~postuninstall: imagesloaded@4.1.1
+538 verbose unbuild rmStuff http-signature@1.1.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+539 info lifecycle http-signature@1.1.1~postuninstall: http-signature@1.1.1
+540 verbose unbuild rmStuff hosted-git-info@2.4.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+541 info lifecycle hosted-git-info@2.4.1~postuninstall: hosted-git-info@2.4.1
+542 verbose unbuild rmStuff indent-string@2.1.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+543 info lifecycle indent-string@2.1.0~postuninstall: indent-string@2.1.0
+544 verbose unbuild rmStuff is-builtin-module@1.0.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+545 info lifecycle is-builtin-module@1.0.0~postuninstall: is-builtin-module@1.0.0
+546 verbose unbuild rmStuff is-arrayish@0.2.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+547 info lifecycle is-arrayish@0.2.1~postuninstall: is-arrayish@0.2.1
+548 verbose unbuild rmStuff is-finite@1.0.2 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+549 info lifecycle is-finite@1.0.2~postuninstall: is-finite@1.0.2
+550 verbose unbuild rmStuff is-typedarray@1.0.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+551 info lifecycle is-typedarray@1.0.0~postuninstall: is-typedarray@1.0.0
+552 verbose unbuild rmStuff isstream@0.1.2 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+553 info lifecycle isstream@0.1.2~postuninstall: isstream@0.1.2
+554 verbose unbuild rmStuff jsbn@0.1.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+555 info lifecycle jsbn@0.1.1~postuninstall: jsbn@0.1.1
+556 verbose unbuild rmStuff json-schema@0.2.3 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+557 info lifecycle json-schema@0.2.3~postuninstall: json-schema@0.2.3
+558 verbose unbuild rmStuff jodid25519@1.0.2 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+559 info lifecycle jodid25519@1.0.2~postuninstall: jodid25519@1.0.2
+560 verbose unbuild rmStuff json-stable-stringify@1.0.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+561 info lifecycle json-stable-stringify@1.0.1~postuninstall: json-stable-stringify@1.0.1
+562 verbose unbuild rmStuff json-stringify-safe@5.0.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+563 info lifecycle json-stringify-safe@5.0.1~postuninstall: json-stringify-safe@5.0.1
+564 verbose unbuild rmStuff loud-rejection@1.6.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+565 info lifecycle loud-rejection@1.6.0~postuninstall: loud-rejection@1.6.0
+566 verbose unbuild rmStuff jsonify@0.0.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+567 info lifecycle jsonify@0.0.0~postuninstall: jsonify@0.0.0
+568 verbose unbuild rmStuff map-obj@1.0.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+569 info lifecycle map-obj@1.0.1~postuninstall: map-obj@1.0.1
+570 verbose unbuild rmStuff mime-db@1.27.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+571 info lifecycle mime-db@1.27.0~postuninstall: mime-db@1.27.0
+572 verbose unbuild rmStuff ms@0.7.2 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+573 info lifecycle ms@0.7.2~postuninstall: ms@0.7.2
+574 verbose unbuild rmStuff mime-types@2.1.15 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+575 info lifecycle mime-types@2.1.15~postuninstall: mime-types@2.1.15
+576 verbose unbuild rmStuff mv@2.1.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+577 info lifecycle mv@2.1.1~postuninstall: mv@2.1.1
+578 verbose unbuild rmStuff normalize-package-data@2.3.6 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+579 info lifecycle normalize-package-data@2.3.6~postuninstall: normalize-package-data@2.3.6
+580 verbose unbuild rmStuff oauth-sign@0.8.2 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+581 info lifecycle oauth-sign@0.8.2~postuninstall: oauth-sign@0.8.2
+582 silly lifecycle ncp@2.0.0~uninstall: no script for uninstall, continuing
+583 silly lifecycle nugget@1.6.2~uninstall: no script for uninstall, continuing
+584 verbose unbuild rmStuff object-keys@0.4.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+585 info lifecycle object-keys@0.4.0~postuninstall: object-keys@0.4.0
+586 verbose unbuild rmStuff path-exists@1.0.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+587 info lifecycle path-exists@1.0.0~postuninstall: path-exists@1.0.0
+588 verbose unbuild rmStuff number-is-nan@1.0.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+589 info lifecycle number-is-nan@1.0.1~postuninstall: number-is-nan@1.0.1
+590 verbose unbuild rmStuff path-is-absolute@1.0.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+591 info lifecycle path-is-absolute@1.0.1~postuninstall: path-is-absolute@1.0.1
+592 verbose unbuild rmStuff parse-json@2.2.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+593 info lifecycle parse-json@2.2.0~postuninstall: parse-json@2.2.0
+594 verbose unbuild rmStuff pify@2.3.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+595 info lifecycle pify@2.3.0~postuninstall: pify@2.3.0
+596 verbose unbuild rmStuff pend@1.2.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+597 info lifecycle pend@1.2.0~postuninstall: pend@1.2.0
+598 verbose unbuild rmStuff performance-now@0.2.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+599 info lifecycle performance-now@0.2.0~postuninstall: performance-now@0.2.0
+600 verbose unbuild rmStuff pinkie@2.0.4 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+601 info lifecycle pinkie@2.0.4~postuninstall: pinkie@2.0.4
+602 verbose unbuild rmStuff pinkie-promise@2.0.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+603 info lifecycle pinkie-promise@2.0.1~postuninstall: pinkie-promise@2.0.1
+604 silly lifecycle pretty-bytes@1.0.4~uninstall: no script for uninstall, continuing
+605 verbose unbuild rmStuff punycode@1.4.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+606 info lifecycle punycode@1.4.1~postuninstall: punycode@1.4.1
+607 verbose unbuild rmStuff qs@6.4.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+608 info lifecycle qs@6.4.0~postuninstall: qs@6.4.0
+609 verbose unbuild rmStuff read-pkg@1.1.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+610 info lifecycle read-pkg@1.1.0~postuninstall: read-pkg@1.1.0
+611 verbose unbuild rmStuff repeating@2.0.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+612 info lifecycle repeating@2.0.1~postuninstall: repeating@2.0.1
+613 verbose unbuild rmStuff redent@1.0.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+614 info lifecycle redent@1.0.0~postuninstall: redent@1.0.0
+615 verbose unbuild rmStuff safe-buffer@5.0.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+616 info lifecycle safe-buffer@5.0.1~postuninstall: safe-buffer@5.0.1
+617 verbose unbuild rmStuff signal-exit@3.0.2 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+618 info lifecycle signal-exit@3.0.2~postuninstall: signal-exit@3.0.2
+619 verbose unbuild rmStuff single-line-log@0.4.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+620 info lifecycle single-line-log@0.4.1~postuninstall: single-line-log@0.4.1
+621 verbose unbuild rmStuff sntp@1.0.9 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+622 info lifecycle sntp@1.0.9~postuninstall: sntp@1.0.9
+623 verbose unbuild rmStuff spdx-correct@1.0.2 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+624 info lifecycle spdx-correct@1.0.2~postuninstall: spdx-correct@1.0.2
+625 verbose unbuild rmStuff spdx-expression-parse@1.0.4 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+626 info lifecycle spdx-expression-parse@1.0.4~postuninstall: spdx-expression-parse@1.0.4
+627 verbose unbuild rmStuff spdx-license-ids@1.2.2 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+628 info lifecycle spdx-license-ids@1.2.2~postuninstall: spdx-license-ids@1.2.2
+629 verbose unbuild rmStuff speedometer@0.1.4 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+630 info lifecycle speedometer@0.1.4~postuninstall: speedometer@0.1.4
+631 verbose unbuild rmStuff stringstream@0.0.5 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+632 info lifecycle stringstream@0.0.5~postuninstall: stringstream@0.0.5
+633 silly lifecycle strip-indent@1.0.1~uninstall: no script for uninstall, continuing
+634 verbose unbuild rmStuff trim-newlines@1.0.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+635 info lifecycle trim-newlines@1.0.0~postuninstall: trim-newlines@1.0.0
+636 verbose unbuild rmStuff strip-json-comments@2.0.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+637 info lifecycle strip-json-comments@2.0.1~postuninstall: strip-json-comments@2.0.1
+638 verbose unbuild rmStuff tough-cookie@2.3.2 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+639 info lifecycle tough-cookie@2.3.2~postuninstall: tough-cookie@2.3.2
+640 verbose unbuild rmStuff throttleit@0.0.2 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+641 info lifecycle throttleit@0.0.2~postuninstall: throttleit@0.0.2
+642 verbose unbuild rmStuff tweetnacl@0.14.5 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+643 info lifecycle tweetnacl@0.14.5~postuninstall: tweetnacl@0.14.5
+644 verbose unbuild rmStuff tunnel-agent@0.6.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+645 info lifecycle tunnel-agent@0.6.0~postuninstall: tunnel-agent@0.6.0
+646 silly lifecycle uuid@3.0.1~uninstall: no script for uninstall, continuing
+647 silly lifecycle electron-prebuilt@0.36.12~uninstall: no script for uninstall, continuing
+648 verbose unbuild rmStuff validate-npm-package-license@3.0.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+649 info lifecycle validate-npm-package-license@3.0.1~postuninstall: validate-npm-package-license@3.0.1
+650 verbose unbuild rmStuff form-data@2.1.2 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+651 info lifecycle form-data@2.1.2~postuninstall: form-data@2.1.2
+652 verbose unbuild rmStuff getpass@0.1.6 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+653 info lifecycle getpass@0.1.6~postuninstall: getpass@0.1.6
+654 verbose unbuild rmStuff har-validator@4.2.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+655 info lifecycle har-validator@4.2.1~postuninstall: har-validator@4.2.1
+656 verbose unbuild rmStuff hawk@3.1.3 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+657 info lifecycle hawk@3.1.3~postuninstall: hawk@3.1.3
+658 verbose unbuild rmStuff load-json-file@1.1.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+659 info lifecycle load-json-file@1.1.0~postuninstall: load-json-file@1.1.0
+660 verbose unbuild rmStuff meow@3.7.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+661 info lifecycle meow@3.7.0~postuninstall: meow@3.7.0
+662 verbose unbuild rmStuff path-type@1.1.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+663 info lifecycle path-type@1.1.0~postuninstall: path-type@1.1.0
+664 verbose unbuild rmStuff progress-stream@1.2.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+665 info lifecycle progress-stream@1.2.0~postuninstall: progress-stream@1.2.0
+666 silly lifecycle rc@1.2.0~uninstall: no script for uninstall, continuing
+667 verbose unbuild rmStuff read-pkg-up@1.0.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+668 info lifecycle read-pkg-up@1.0.1~postuninstall: read-pkg-up@1.0.1
+669 silly lifecycle rimraf@2.4.5~uninstall: no script for uninstall, continuing
+670 verbose unbuild rmStuff request@2.81.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+671 info lifecycle request@2.81.0~postuninstall: request@2.81.0
+672 silly lifecycle sshpk@1.11.0~uninstall: no script for uninstall, continuing
+673 verbose unbuild rmStuff yauzl@2.4.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+674 info lifecycle yauzl@2.4.1~postuninstall: yauzl@2.4.1
+675 verbose unbuild rmStuff jsprim@1.4.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+676 info lifecycle jsprim@1.4.0~postuninstall: jsprim@1.4.0
+677 verbose unbuild rmStuff verror@1.3.6 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+678 info lifecycle verror@1.3.6~postuninstall: verror@1.3.6
+679 silly lifecycle aws4@1.6.0~postuninstall: no script for postuninstall, continuing
+680 silly lifecycle array-find-index@1.0.2~postuninstall: no script for postuninstall, continuing
+681 silly lifecycle aws-sign2@0.6.0~postuninstall: no script for postuninstall, continuing
+682 silly lifecycle assert-plus@0.2.0~postuninstall: no script for postuninstall, continuing
+683 silly lifecycle builtin-modules@1.1.1~postuninstall: no script for postuninstall, continuing
+684 silly lifecycle camelcase-keys@2.1.0~postuninstall: no script for postuninstall, continuing
+685 silly lifecycle camelcase@2.1.1~postuninstall: no script for postuninstall, continuing
+686 silly lifecycle bcrypt-pbkdf@1.0.1~postuninstall: no script for postuninstall, continuing
+687 silly lifecycle caseless@0.12.0~postuninstall: no script for postuninstall, continuing
+688 silly lifecycle co@4.6.0~postuninstall: no script for postuninstall, continuing
+689 silly lifecycle debug@2.6.3~postuninstall: no script for postuninstall, continuing
+690 silly lifecycle currently-unhandled@0.4.1~postuninstall: no script for postuninstall, continuing
+691 silly lifecycle decamelize@1.2.0~postuninstall: no script for postuninstall, continuing
+692 verbose unbuild rmStuff electron-download@2.2.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+693 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\electron-download.cmd is being gently removed from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\electron-download
+694 silly lifecycle flickity-as-nav-for@2.0.1~postuninstall: no script for postuninstall, continuing
+695 silly lifecycle error-ex@1.3.1~postuninstall: no script for postuninstall, continuing
+696 silly lifecycle flickity-imagesloaded@2.0.0~postuninstall: no script for postuninstall, continuing
+697 silly lifecycle flickity-bg-lazyload@1.0.0~postuninstall: no script for postuninstall, continuing
+698 silly lifecycle har-schema@1.0.5~postuninstall: no script for postuninstall, continuing
+699 silly lifecycle get-stdin@4.0.1~postuninstall: no script for postuninstall, continuing
+700 silly lifecycle forever-agent@0.6.1~postuninstall: no script for postuninstall, continuing
+701 silly lifecycle home-path@1.0.5~postuninstall: no script for postuninstall, continuing
+702 silly lifecycle hoek@2.16.3~postuninstall: no script for postuninstall, continuing
+703 silly lifecycle imagesloaded@4.1.1~postuninstall: no script for postuninstall, continuing
+704 silly lifecycle http-signature@1.1.1~postuninstall: no script for postuninstall, continuing
+705 silly lifecycle hosted-git-info@2.4.1~postuninstall: no script for postuninstall, continuing
+706 silly lifecycle indent-string@2.1.0~postuninstall: no script for postuninstall, continuing
+707 silly lifecycle is-builtin-module@1.0.0~postuninstall: no script for postuninstall, continuing
+708 silly lifecycle is-arrayish@0.2.1~postuninstall: no script for postuninstall, continuing
+709 silly lifecycle is-finite@1.0.2~postuninstall: no script for postuninstall, continuing
+710 silly lifecycle is-typedarray@1.0.0~postuninstall: no script for postuninstall, continuing
+711 silly lifecycle isstream@0.1.2~postuninstall: no script for postuninstall, continuing
+712 silly lifecycle jsbn@0.1.1~postuninstall: no script for postuninstall, continuing
+713 silly lifecycle json-schema@0.2.3~postuninstall: no script for postuninstall, continuing
+714 silly lifecycle jodid25519@1.0.2~postuninstall: no script for postuninstall, continuing
+715 silly lifecycle json-stable-stringify@1.0.1~postuninstall: no script for postuninstall, continuing
+716 silly lifecycle json-stringify-safe@5.0.1~postuninstall: no script for postuninstall, continuing
+717 silly lifecycle loud-rejection@1.6.0~postuninstall: no script for postuninstall, continuing
+718 silly lifecycle jsonify@0.0.0~postuninstall: no script for postuninstall, continuing
+719 silly lifecycle map-obj@1.0.1~postuninstall: no script for postuninstall, continuing
+720 silly lifecycle mime-db@1.27.0~postuninstall: no script for postuninstall, continuing
+721 silly lifecycle ms@0.7.2~postuninstall: no script for postuninstall, continuing
+722 silly lifecycle mime-types@2.1.15~postuninstall: no script for postuninstall, continuing
+723 silly lifecycle mv@2.1.1~postuninstall: no script for postuninstall, continuing
+724 silly lifecycle normalize-package-data@2.3.6~postuninstall: no script for postuninstall, continuing
+725 silly lifecycle oauth-sign@0.8.2~postuninstall: no script for postuninstall, continuing
+726 verbose unbuild rmStuff ncp@2.0.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+727 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\ncp.cmd is being gently removed from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\ncp
+728 verbose unbuild rmStuff nugget@1.6.2 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+729 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\nugget.cmd is being gently removed from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\nugget
+730 silly lifecycle object-keys@0.4.0~postuninstall: no script for postuninstall, continuing
+731 silly lifecycle path-exists@1.0.0~postuninstall: no script for postuninstall, continuing
+732 silly lifecycle number-is-nan@1.0.1~postuninstall: no script for postuninstall, continuing
+733 silly lifecycle path-is-absolute@1.0.1~postuninstall: no script for postuninstall, continuing
+734 silly lifecycle parse-json@2.2.0~postuninstall: no script for postuninstall, continuing
+735 silly lifecycle pify@2.3.0~postuninstall: no script for postuninstall, continuing
+736 silly lifecycle pend@1.2.0~postuninstall: no script for postuninstall, continuing
+737 silly lifecycle performance-now@0.2.0~postuninstall: no script for postuninstall, continuing
+738 silly lifecycle pinkie@2.0.4~postuninstall: no script for postuninstall, continuing
+739 silly lifecycle pinkie-promise@2.0.1~postuninstall: no script for postuninstall, continuing
+740 verbose unbuild rmStuff pretty-bytes@1.0.4 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+741 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\pretty-bytes.cmd is being gently removed from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\pretty-bytes
+742 silly lifecycle punycode@1.4.1~postuninstall: no script for postuninstall, continuing
+743 silly lifecycle qs@6.4.0~postuninstall: no script for postuninstall, continuing
+744 silly lifecycle read-pkg@1.1.0~postuninstall: no script for postuninstall, continuing
+745 silly lifecycle repeating@2.0.1~postuninstall: no script for postuninstall, continuing
+746 silly lifecycle redent@1.0.0~postuninstall: no script for postuninstall, continuing
+747 silly lifecycle safe-buffer@5.0.1~postuninstall: no script for postuninstall, continuing
+748 silly lifecycle signal-exit@3.0.2~postuninstall: no script for postuninstall, continuing
+749 silly lifecycle single-line-log@0.4.1~postuninstall: no script for postuninstall, continuing
+750 silly lifecycle sntp@1.0.9~postuninstall: no script for postuninstall, continuing
+751 silly lifecycle spdx-correct@1.0.2~postuninstall: no script for postuninstall, continuing
+752 silly lifecycle spdx-expression-parse@1.0.4~postuninstall: no script for postuninstall, continuing
+753 silly lifecycle spdx-license-ids@1.2.2~postuninstall: no script for postuninstall, continuing
+754 silly lifecycle speedometer@0.1.4~postuninstall: no script for postuninstall, continuing
+755 silly lifecycle stringstream@0.0.5~postuninstall: no script for postuninstall, continuing
+756 verbose unbuild rmStuff strip-indent@1.0.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+757 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\strip-indent.cmd is being gently removed from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\strip-indent
+758 silly lifecycle trim-newlines@1.0.0~postuninstall: no script for postuninstall, continuing
+759 silly lifecycle strip-json-comments@2.0.1~postuninstall: no script for postuninstall, continuing
+760 silly lifecycle tough-cookie@2.3.2~postuninstall: no script for postuninstall, continuing
+761 silly lifecycle throttleit@0.0.2~postuninstall: no script for postuninstall, continuing
+762 silly lifecycle tweetnacl@0.14.5~postuninstall: no script for postuninstall, continuing
+763 silly lifecycle tunnel-agent@0.6.0~postuninstall: no script for postuninstall, continuing
+764 verbose unbuild rmStuff uuid@3.0.1 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+765 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\uuid.cmd is being gently removed from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\uuid
+766 verbose unbuild rmStuff electron-prebuilt@0.36.12 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+767 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\electron.cmd is being gently removed from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\electron-prebuilt
+768 silly lifecycle validate-npm-package-license@3.0.1~postuninstall: no script for postuninstall, continuing
+769 silly lifecycle form-data@2.1.2~postuninstall: no script for postuninstall, continuing
+770 silly lifecycle getpass@0.1.6~postuninstall: no script for postuninstall, continuing
+771 silly lifecycle har-validator@4.2.1~postuninstall: no script for postuninstall, continuing
+772 silly lifecycle hawk@3.1.3~postuninstall: no script for postuninstall, continuing
+773 silly lifecycle load-json-file@1.1.0~postuninstall: no script for postuninstall, continuing
+774 silly lifecycle meow@3.7.0~postuninstall: no script for postuninstall, continuing
+775 silly lifecycle path-type@1.1.0~postuninstall: no script for postuninstall, continuing
+776 silly lifecycle progress-stream@1.2.0~postuninstall: no script for postuninstall, continuing
+777 verbose unbuild rmStuff rc@1.2.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+778 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\rc.cmd is being gently removed from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\rc
+779 silly lifecycle read-pkg-up@1.0.1~postuninstall: no script for postuninstall, continuing
+780 verbose unbuild rmStuff rimraf@2.4.5 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+781 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\rimraf.cmd is being gently removed from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\rimraf
+782 silly lifecycle request@2.81.0~postuninstall: no script for postuninstall, continuing
+783 verbose unbuild rmStuff sshpk@1.11.0 from C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+784 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\sshpk-conv.cmd is being gently removed from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\sshpk
+785 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\sshpk-sign.cmd is being gently removed from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\sshpk
+786 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\sshpk-verify.cmd is being gently removed from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\sshpk
+787 silly lifecycle yauzl@2.4.1~postuninstall: no script for postuninstall, continuing
+788 silly lifecycle jsprim@1.4.0~postuninstall: no script for postuninstall, continuing
+789 silly lifecycle verror@1.3.6~postuninstall: no script for postuninstall, continuing
+790 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\aws4 is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+791 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\aws4
+792 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\array-find-index is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+793 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\array-find-index
+794 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\aws-sign2 is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+795 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\aws-sign2
+796 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\assert-plus is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+797 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\assert-plus
+798 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\builtin-modules is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+799 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\builtin-modules
+800 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\camelcase-keys is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+801 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\camelcase-keys
+802 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\camelcase is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+803 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\camelcase
+804 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\bcrypt-pbkdf is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+805 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\bcrypt-pbkdf
+806 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\caseless is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+807 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\caseless
+808 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\co is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+809 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\co
+810 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\debug is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+811 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\debug
+812 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\currently-unhandled is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+813 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\currently-unhandled
+814 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\decamelize is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+815 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\decamelize
+816 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\flickity-as-nav-for is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+817 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\flickity-as-nav-for
+818 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\error-ex is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+819 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\error-ex
+820 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\flickity-imagesloaded is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+821 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\flickity-imagesloaded
+822 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\flickity-bg-lazyload is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+823 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\flickity-bg-lazyload
+824 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\har-schema is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+825 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\har-schema
+826 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\get-stdin is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+827 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\get-stdin
+828 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\forever-agent is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+829 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\forever-agent
+830 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\home-path is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+831 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\home-path
+832 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\hoek is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+833 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\hoek
+834 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\imagesloaded is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+835 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\imagesloaded
+836 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\http-signature is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+837 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\http-signature
+838 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\hosted-git-info is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+839 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\hosted-git-info
+840 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\indent-string is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+841 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\indent-string
+842 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\is-builtin-module is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+843 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\is-builtin-module
+844 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\is-arrayish is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+845 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\is-arrayish
+846 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\is-finite is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+847 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\is-finite
+848 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\is-typedarray is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+849 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\is-typedarray
+850 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\isstream is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+851 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\isstream
+852 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\jsbn is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+853 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\jsbn
+854 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\json-schema is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+855 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\json-schema
+856 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\jodid25519 is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+857 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\jodid25519
+858 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\json-stable-stringify is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+859 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\json-stable-stringify
+860 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\json-stringify-safe is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+861 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\json-stringify-safe
+862 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\loud-rejection is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+863 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\loud-rejection
+864 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\jsonify is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+865 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\jsonify
+866 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\map-obj is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+867 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\map-obj
+868 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\mime-db is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+869 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\mime-db
+870 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\ms is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+871 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\ms
+872 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\mime-types is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+873 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\mime-types
+874 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\mv is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+875 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\mv
+876 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\normalize-package-data is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+877 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\normalize-package-data
+878 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\oauth-sign is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+879 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\oauth-sign
+880 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\object-keys is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+881 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\object-keys
+882 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\path-exists is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+883 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\path-exists
+884 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\number-is-nan is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+885 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\number-is-nan
+886 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\path-is-absolute is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+887 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\path-is-absolute
+888 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\parse-json is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+889 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\parse-json
+890 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\pify is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+891 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\pify
+892 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\pend is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+893 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\pend
+894 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\performance-now is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+895 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\performance-now
+896 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\pinkie is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+897 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\pinkie
+898 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\pinkie-promise is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+899 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\pinkie-promise
+900 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\punycode is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+901 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\punycode
+902 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\qs is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+903 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\qs
+904 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\read-pkg is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+905 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\read-pkg
+906 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\repeating is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+907 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\repeating
+908 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\redent is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+909 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\redent
+910 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\safe-buffer is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+911 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\safe-buffer
+912 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\signal-exit is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+913 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\signal-exit
+914 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\single-line-log is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+915 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\single-line-log
+916 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\sntp is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+917 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\sntp
+918 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\spdx-correct is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+919 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\spdx-correct
+920 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\spdx-expression-parse is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+921 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\spdx-expression-parse
+922 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\spdx-license-ids is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+923 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\spdx-license-ids
+924 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\speedometer is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+925 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\speedometer
+926 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\stringstream is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+927 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\stringstream
+928 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\trim-newlines is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+929 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\trim-newlines
+930 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\strip-json-comments is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+931 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\strip-json-comments
+932 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\tough-cookie is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+933 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\tough-cookie
+934 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\throttleit is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+935 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\throttleit
+936 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\tweetnacl is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+937 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\tweetnacl
+938 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\tunnel-agent is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+939 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\tunnel-agent
+940 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\validate-npm-package-license is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+941 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\validate-npm-package-license
+942 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\form-data is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+943 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\form-data
+944 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\getpass is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+945 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\getpass
+946 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\har-validator is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+947 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\har-validator
+948 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\hawk is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+949 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\hawk
+950 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\load-json-file is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+951 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\load-json-file
+952 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\meow is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+953 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\meow
+954 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\path-type is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+955 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\path-type
+956 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\progress-stream is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+957 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\progress-stream
+958 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\read-pkg-up is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+959 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\read-pkg-up
+960 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\request is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+961 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\request
+962 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\yauzl is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+963 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\yauzl
+964 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\jsprim is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+965 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\jsprim
+966 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\verror is being purged from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+967 verbose gentlyRm don't care about contents; nuking C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\verror
+968 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\aws4
+969 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\array-find-index
+970 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\aws-sign2
+971 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\assert-plus
+972 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\builtin-modules
+973 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\camelcase-keys
+974 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\camelcase
+975 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\bcrypt-pbkdf
+976 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\caseless
+977 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\co
+978 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\debug
+979 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\currently-unhandled
+980 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\decamelize
+981 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\flickity-as-nav-for
+982 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\error-ex
+983 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\flickity-imagesloaded
+984 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\flickity-bg-lazyload
+985 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\har-schema
+986 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\get-stdin
+987 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\forever-agent
+988 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\home-path
+989 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\hoek
+990 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\imagesloaded
+991 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\http-signature
+992 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\hosted-git-info
+993 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\indent-string
+994 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\is-builtin-module
+995 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\is-arrayish
+996 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\is-finite
+997 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\is-typedarray
+998 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\isstream
+999 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\jsbn
+1000 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\json-schema
+1001 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\jodid25519
+1002 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\json-stringify-safe
+1003 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\json-stable-stringify
+1004 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\loud-rejection
+1005 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\jsonify
+1006 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\map-obj
+1007 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\mime-db
+1008 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\ms
+1009 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\mime-types
+1010 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\mv
+1011 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\normalize-package-data
+1012 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\oauth-sign
+1013 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\object-keys
+1014 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\path-exists
+1015 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\number-is-nan
+1016 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\path-is-absolute
+1017 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\parse-json
+1018 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\pify
+1019 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\pend
+1020 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\performance-now
+1021 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\pinkie-promise
+1022 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\pinkie
+1023 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\punycode
+1024 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\qs
+1025 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\read-pkg
+1026 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\repeating
+1027 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\redent
+1028 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\safe-buffer
+1029 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\signal-exit
+1030 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\single-line-log
+1031 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\sntp
+1032 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\spdx-correct
+1033 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\spdx-expression-parse
+1034 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\spdx-license-ids
+1035 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\speedometer
+1036 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\stringstream
+1037 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\trim-newlines
+1038 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\strip-json-comments
+1039 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\tough-cookie
+1040 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\throttleit
+1041 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\tweetnacl
+1042 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\tunnel-agent
+1043 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\validate-npm-package-license
+1044 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\form-data
+1045 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\getpass
+1046 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\har-validator
+1047 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\hawk
+1048 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\load-json-file
+1049 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\meow
+1050 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\path-type
+1051 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\progress-stream
+1052 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\read-pkg-up
+1053 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\request
+1054 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\yauzl
+1055 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\jsprim
+1056 silly vacuum-fs purging C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\verror
+1057 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1058 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1059 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1060 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1061 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1062 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1063 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1064 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1065 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1066 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1067 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1068 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1069 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1070 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1071 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1072 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1073 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1074 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1075 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1076 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1077 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1078 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1079 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1080 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1081 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1082 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1083 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1084 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1085 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1086 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1087 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1088 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1089 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1090 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1091 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1092 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1093 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1094 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1095 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1096 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1097 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1098 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1099 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1100 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1101 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1102 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1103 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1104 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1105 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1106 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1107 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1108 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1109 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1110 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1111 silly isEverInside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\electron-download is not inside C:\Users\ROHIT\AppData\Roaming\npm
+1112 silly isEverInside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\strip-indent is not inside C:\Users\ROHIT\AppData\Roaming\npm
+1113 silly isEverInside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\uuid is not inside C:\Users\ROHIT\AppData\Roaming\npm
+1114 silly isEverInside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\rc is not inside C:\Users\ROHIT\AppData\Roaming\npm
+1115 silly isEverInside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\sshpk is not inside C:\Users\ROHIT\AppData\Roaming\npm
+1116 silly isEverInside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\sshpk is not inside C:\Users\ROHIT\AppData\Roaming\npm
+1117 silly isEverInside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\sshpk is not inside C:\Users\ROHIT\AppData\Roaming\npm
+1118 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\electron-download is being gently removed from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\electron-download
+1119 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\ncp is being gently removed from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\ncp
+1120 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\nugget is being gently removed from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\nugget
+1121 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\pretty-bytes is being gently removed from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\pretty-bytes
+1122 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\strip-indent is being gently removed from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\strip-indent
+1123 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\uuid is being gently removed from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\uuid
+1124 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\electron is being gently removed from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\electron-prebuilt
+1125 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\rc is being gently removed from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\rc
+1126 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\rimraf is being gently removed from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\rimraf
+1127 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\sshpk-conv is being gently removed from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\sshpk
+1128 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\sshpk-verify is being gently removed from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\sshpk
+1129 silly gentlyRm C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\sshpk-sign is being gently removed from base C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\sshpk
+1130 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1131 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1132 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1133 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1134 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1135 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1136 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1137 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1138 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1139 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1140 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1141 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1142 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1143 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1144 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1145 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1146 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1147 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1148 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1149 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1150 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1151 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1152 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1153 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1154 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1155 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1156 silly isEverInside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\electron-download is not inside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\electron-download
+1157 silly gentlyRm parent.path = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\electron-download
+1158 silly gentlyRm parent.managed = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\electron-download is in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+1159 silly gentlyRm target.path =  C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\electron-download
+1160 silly gentlyRm target.symlink = null
+1161 silly gentlyRm target.managed = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\electron-download is in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+1162 silly gentlyRm target.inParent =  false
+1163 silly isEverInside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\pretty-bytes is not inside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\pretty-bytes
+1164 silly gentlyRm parent.path = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\pretty-bytes
+1165 silly gentlyRm parent.managed = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\pretty-bytes is in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+1166 silly gentlyRm target.path =  C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\pretty-bytes
+1167 silly gentlyRm target.symlink = null
+1168 silly gentlyRm target.managed = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\pretty-bytes is in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+1169 silly gentlyRm target.inParent =  false
+1170 silly isEverInside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\nugget is not inside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\nugget
+1171 silly gentlyRm parent.path = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\nugget
+1172 silly gentlyRm parent.managed = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\nugget is in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+1173 silly gentlyRm target.path =  C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\nugget
+1174 silly gentlyRm target.symlink = null
+1175 silly gentlyRm target.managed = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\nugget is in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+1176 silly gentlyRm target.inParent =  false
+1177 silly isEverInside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\electron is not inside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\electron-prebuilt
+1178 silly gentlyRm parent.path = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\electron-prebuilt
+1179 silly gentlyRm parent.managed = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\electron-prebuilt is in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+1180 silly gentlyRm target.path =  C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\electron
+1181 silly gentlyRm target.symlink = null
+1182 silly gentlyRm target.managed = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\electron is in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+1183 silly gentlyRm target.inParent =  false
+1184 silly isEverInside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\strip-indent is not inside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\strip-indent
+1185 silly gentlyRm parent.path = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\strip-indent
+1186 silly gentlyRm parent.managed = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\strip-indent is in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+1187 silly gentlyRm target.path =  C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\strip-indent
+1188 silly gentlyRm target.symlink = null
+1189 silly gentlyRm target.managed = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\strip-indent is in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+1190 silly gentlyRm target.inParent =  false
+1191 silly isEverInside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\uuid is not inside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\uuid
+1192 silly gentlyRm parent.path = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\uuid
+1193 silly gentlyRm parent.managed = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\uuid is in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+1194 silly gentlyRm target.path =  C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\uuid
+1195 silly gentlyRm target.symlink = null
+1196 silly gentlyRm target.managed = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\uuid is in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+1197 silly gentlyRm target.inParent =  false
+1198 silly isEverInside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\ncp is not inside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\ncp
+1199 silly gentlyRm parent.path = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\ncp
+1200 silly gentlyRm parent.managed = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\ncp is in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+1201 silly gentlyRm target.path =  C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\ncp
+1202 silly gentlyRm target.symlink = null
+1203 silly gentlyRm target.managed = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\ncp is in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+1204 silly gentlyRm target.inParent =  false
+1205 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1206 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1207 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1208 silly isEverInside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\rc is not inside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\rc
+1209 silly gentlyRm parent.path = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\rc
+1210 silly gentlyRm parent.managed = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\rc is in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+1211 silly gentlyRm target.path =  C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\rc
+1212 silly gentlyRm target.symlink = null
+1213 silly gentlyRm target.managed = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\rc is in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+1214 silly gentlyRm target.inParent =  false
+1215 silly isEverInside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\rimraf is not inside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\rimraf
+1216 silly gentlyRm parent.path = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\rimraf
+1217 silly gentlyRm parent.managed = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\rimraf is in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+1218 silly gentlyRm target.path =  C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\rimraf
+1219 silly gentlyRm target.symlink = null
+1220 silly gentlyRm target.managed = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\rimraf is in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+1221 silly gentlyRm target.inParent =  false
+1222 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1223 silly isEverInside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\sshpk-verify is not inside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\sshpk
+1224 silly gentlyRm parent.path = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\sshpk
+1225 silly gentlyRm parent.managed = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\sshpk is in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+1226 silly gentlyRm target.path =  C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\sshpk-verify
+1227 silly gentlyRm target.symlink = null
+1228 silly gentlyRm target.managed = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\sshpk-verify is in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+1229 silly gentlyRm target.inParent =  false
+1230 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1231 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1232 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1233 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1234 silly isEverInside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\sshpk-conv is not inside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\sshpk
+1235 silly gentlyRm parent.path = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\sshpk
+1236 silly gentlyRm parent.managed = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\sshpk is in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+1237 silly gentlyRm target.path =  C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\sshpk-conv
+1238 silly gentlyRm target.symlink = null
+1239 silly gentlyRm target.managed = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\sshpk-conv is in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+1240 silly gentlyRm target.inParent =  false
+1241 silly isEverInside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\sshpk-sign is not inside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\sshpk
+1242 silly gentlyRm parent.path = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\sshpk
+1243 silly gentlyRm parent.managed = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\sshpk is in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+1244 silly gentlyRm target.path =  C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\sshpk-sign
+1245 silly gentlyRm target.symlink = null
+1246 silly gentlyRm target.managed = C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\sshpk-sign is in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+1247 silly gentlyRm target.inParent =  false
+1248 silly vacuum-fs quitting because other entries in C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules
+1249 verbose stack Error: Refusing to delete C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\electron-download: is outside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\electron-download and not a link
+1249 verbose stack     at clobberFail (C:\Program Files\nodejs\node_modules\npm\lib\utils\gently-rm.js:162:12)
+1249 verbose stack     at isSafeToRm (C:\Program Files\nodejs\node_modules\npm\lib\utils\gently-rm.js:155:15)
+1249 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\utils\gently-rm.js:93:5
+1249 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:7:26)
+1249 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:18:7
+1249 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\utils\gently-rm.js:221:7
+1249 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+1249 verbose stack     at _readAllLinks (C:\Program Files\nodejs\node_modules\npm\lib\utils\gently-rm.js:256:28)
+1249 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+1249 verbose stack     at resolveSymlink (C:\Program Files\nodejs\node_modules\npm\lib\utils\gently-rm.js:267:22)
+1250 verbose cwd C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb
+1251 error Windows_NT 10.0.14393
+1252 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "prune" "-production"
+1253 error node v6.10.1
+1254 error npm  v3.10.10
+1255 error path C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\electron-download
+1256 error code EEXIST
+1257 error Refusing to delete C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\electron-download: is outside C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\electron-download and not a link
+1258 error File exists: C:\Users\ROHIT\Desktop\jaxx_allplatforms\jaxxWeb\node_modules\.bin\electron-download
+1259 error Move it away, and try again.
+1260 verbose exit [ 1, true ]

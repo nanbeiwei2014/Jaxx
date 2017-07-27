@@ -1,0 +1,244 @@
+/**
+ *  This style sheet is for code specific css properties that are required.
+ *
+ *  Please be careful when mofifying this file, and get a code review before
+ *  merging to master.Test
+ */
+
+
+/* Our raindrop animation for entropy generation */
+@-webkit-keyframes tap {
+    100% { -webkit-transform: scale(1); }
+}
+
+@keyframes tap {
+    100% { transform: scale(1); }
+}
+
+/* The little droplets that appear when the user moves their mouse to generate entropy */
+.raindrop {
+    -webkit-animation: tap 0.8s;
+    animation: tap 0.8s;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 30px;
+    margin: -15px 0 0 -15px;
+    position: absolute;
+    -webkit-transform: scale(.2);
+    transform: scale(.2);
+    width: 30px;
+}
+
+/*
+body {
+    min-height: 600px;
+    min-width: 365px;
+}
+*/
+
+/* Change Size of Extension */
+
+body {
+    min-height: 568px;
+    min-width: 320px;
+}
+
+html {
+    min-height: 568px;
+    min-width: 320px;
+}
+
+.table {
+    height: 200px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.wallet {
+    bottom: 0px;
+    display: none;
+    left:0px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+
+.cssNonScrollSize {
+    height: 100%;
+}
+
+.dismiss {
+    bottom: 0px;
+    display: none;
+    left:0px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+.qrCode img {
+    ddddisplay: inline-block;
+    dddbackground-size: cover;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.qrCode {
+    display: inline-block;
+}
+
+.tab {
+    width: 49.5%;
+}
+
+.tab:nth-child(2n + 0) {
+    float: left;
+}
+
+.tab:nth-child(2n + 1) {
+    float: right;
+}
+
+.copied {
+}
+
+.copiedLarge {
+    opacity: 0;
+}
+
+.input input {
+   background-repeat: no-repeat;
+   background-position: right 6px center;
+   background-size: 21px 21px;
+}
+
+.input .button {
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+}
+
+.input .amountDetails {
+    position: absolute;
+    right: 95px;
+    top: 0;
+}
+
+.tabContent .input .unitToggle {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    left: -1px;
+    float: left;
+}
+
+.tabContent .input .button span.label  {
+    position: absolute;
+}
+
+.transactionRowTemplate {
+    display: none;
+}
+
+.accountDataRowTemplate {
+    display: none;
+}
+
+.pageAddressesHeader {
+    display: none;
+}
+
+.pageAddresses {
+    display: none;
+}
+
+.pageAddressTemplate {
+    display: none;
+}
+ 
+.clearfix {
+    clear: both;
+}
+
+.modal {
+    display: none;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.modal .button {
+    cursor: pointer;
+}
+
+.settings {
+    background-color: #191F27;
+    z-index: 17;
+    bottom: 0;
+    display: none;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.settings.create .progress {
+    display: inline-block;
+    position: relative;
+}
+
+.settings.create .progress .fillContainer {
+    bottom: 92px;         /* The distance from the bottom of the mask to the first pixel to light up */
+    height: 60px;         /* The height in the mask of pixels to light up */
+    position: absolute;
+    width: 100%;
+}
+
+.settings.create .progress .fill {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.settings.create .progress .mask {
+    height: 100%;
+    position: absolute;    
+    width: 100%;
+}
+
+.settings textarea {
+    height: 70px;
+    display: block;
+    margin-left: auto;
+    width: 80%;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+
+/*Media Queries for Chrome Extension*/
+
+@media screen and (max-width: 292px) {
+    
+    .settings textarea {
+        height: 95px;   
+    }
+
+}
+
+.material-design-hamburger {
+	display: none;
+}
+
+/* @note: @todo: get working properly eventually.
+.csstheDaoPageRefundButton {
+    display: none;
+}*/
+

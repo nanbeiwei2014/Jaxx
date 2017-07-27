@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="18px" viewBox="0 0 16 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-copy copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect x="0" y="0" width="16" height="18" id="rect-1"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-copy-copy-2">
+            <image x="0" y="0" width="16" height="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAABGdBTUEAA1teXP8meAAAAHFJREFUOBFjzG7s+s9AOmCEaWGBMuACMAk8NIqFTHgUEiUFcwFMMYrpMEEsNFwdugEgtSR5h2IvUGwANi8gexnuVyRBFC8SMgBFMZIhcOaoFxgYCAUi0bGATSEopAnGAsgFyIpwGQSPNnQGTaKRJFcAABK9DK9iVws2AAAAAElFTkSuQmCC"></image>
+            <use fill="#F58600" fill-rule="evenodd" xlink:href="#rect-1"></use>
+        </g>
+    </g>
+</svg>

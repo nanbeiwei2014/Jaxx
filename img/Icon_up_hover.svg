@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24"
+	 style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#596572;}
+</style>
+<title>Icon_up</title>
+<desc>Created with Sketch.</desc>
+<g id="Welcome" sketch:type="MSPage">
+	<g id="Mobile-Portrait" transform="translate(-5681.000000, -5696.000000)" sketch:type="MSArtboardGroup">
+		<g id="Icon_up" transform="translate(5681.000000, 5696.000000)" sketch:type="MSLayerGroup">
+			<path id="Shape" sketch:type="MSShapeGroup" class="st0" d="M2,12C2,6.5,6.5,2,12,2s10,4.5,10,10s-4.5,10-10,10S2,17.5,2,12L2,12
+				z M0,12c0,6.6,5.4,12,12,12s12-5.4,12-12S18.6,0,12,0S0,5.4,0,12L0,12z M12,10l4.5,4.5L18,13l-6-6l-6,6l1.5,1.5L12,10L12,10z"/>
+		</g>
+	</g>
+</g>
+</svg>

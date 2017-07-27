@@ -1,0 +1,145 @@
+<html>
+    <body style="padding: 20px 40px;">
+        <h1>Test</h1>
+        <p>
+            No news is good news...
+        </p>
+
+        <textarea id="output" style="width: 100%; height: 400px; padding: 7px 20px; font-family: monospace; font-size: 15px;"></textarea>
+
+        <script src="js/contacts.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            var Output = $('#output');
+
+            function log(message) {
+                if (typeof(message) === 'object') {
+                    message = JSON.stringify(message);
+                }
+                Output.html(Output.html() + '\n' + message);
+            }
+
+            function assertTrue(condition, message) {
+                if (!condition) {
+                    log('Assert Failed: ' + message);
+                }
+            }
+
+            var _asyncTests = 0;
+
+            function beginAsyncTest() {
+                _asyncTests++;
+            }
+
+            function endAsyncTest() {
+                _asyncTests--;
+            }
+
+            function waitAsyncTests() {
+                log('Waiting for async tests to finish.');
+                var waiting = setInterval(function() {
+                    if (_asyncTests === 0) {
+                        clearInterval(waiting);
+                        log('Async tests complete.');
+                    }
+                }, 1000);
+            }
+
+            ////////////////////////////////            
+            // Begin test cases
+
+
+            var contact, shouldFail, shouldPass;
+
+
+            var Contacts = new ContactDatabase('k2', window.localStorage);
+
+
+            // Clear the contacts
+            Contacts.clear();
+            assertTrue(Contacts.count() == 0, 'Contact count was non-zero after clear()');
+            
+
+            // Add a single contact
+            contact = Contacts.addContact();
+            contact.addAccount('name', 'Testing');
+
+            assertTrue(Contacts.count() == 1, 'Contact count was not 1 after adding a single contact');
+            assertTrue(contact.getAccount('name') == 'Testing', 'Setting contact name failed')
+
+
+            // Add bad service
+            shouldFail = contact.addAccount('notAService', 'Testing');
+            assertTrue(!shouldFail, 'Did not fail to add an invalid service');
+
+            assertTrue(Contacts.count() == 1, 'Contact count was not 1 after adding a single contact and junk');
+
+
+            // Add bad twitter name
+            shouldFail = contact.addAccount('twitter', '');
+            assertTrue(!shouldFail, 'Did not fail to add an invalid service');
+
+            assertTrue(Contacts.count() == 1, 'Contact count was not 1 after adding a single contact and junk');
+
+
+            // Add a second contact
+            contact = Contacts.addContact();
+            contact.addAccount('name', 'Richard Moore');
+            contact.addAccount('twitter', 'ricmoo');
+            contact.addAccount('bitcoin', '1RicMooMWxqKczuRCa5D2dnJaUEn9ZJyn');
+            
+            assertTrue(Contacts.count() == 2, 'Contact count was not 2 after adding a second contact');
+
+            log('Sync tests complete.');
+
+
+            // Onename refresh
+            beginAsyncTest();
+            contact = Contacts.addContact();
+            contact.addAccount('onename', 'ricmoo');
+            var cOriginal = contact;
+            contact.refreshAccount('onename', 'ricmoo', function(c, account) {
+                assertTrue(cOriginal === c, 'Contact refresh returned wrong contact instance');
+                assertTrue(account === 'ricmoo', 'Contact refresh returned wrong account');
+                assertTrue(c.getAccount('bitcoin') === '1RicMooMWxqKczuRCa5D2dnJaUEn9ZJyn', 'Contact refresh fetched the wrong bitcoin address')
+                endAsyncTest();
+            });
+
+
+            // Multiple onename accounts
+            beginAsyncTest();
+            beginAsyncTest();
+            contact = Contacts.addContact();
+            contact.addAccount('onename', 'jeff');
+            contact.addAccount('onename', 'anthony');
+            var cOriginal2 = contact;
+            var responses = 0;
+            contact.refreshAccount('onename', function(c, account) {
+                assertTrue(cOriginal2 === c, 'Contact refresh returned wrong contact instance');
+                if (account === 'jeff') {
+                    assertTrue(c.getAccount('pgpFingerprint') === '46CE5D6D4A35D2C41484F4BEFA9E87E1FFD3ADEA', 'Contact refresh got the wrong pgp fingerprint');
+                } else if (account === 'anthony') {
+                    assertTrue(c.getAccount('twitter') === 'diiorioanthony', 'Contact refresh got the wrong twitter');
+                } else {
+                    assertTrue(false, 'Contact refresh returned an unknown account');
+                }
+
+                responses++;
+                if (responses === 2) {
+                    var twitters = c.getAllAccounts('twitter');
+                    twitters.sort();
+                    assertTrue(twitters.length === 2, 'Contact refresh missing twitter accounts');
+                    assertTrue(twitters[0] === "diiorioanthony" && twitters[1] === "technocrypto", 'Contact refresh got a wrong twitter account')
+                }
+
+                endAsyncTest();
+            });
+
+
+
+            ////////////////////////////////            
+            // End test cases
+            waitAsyncTests();
+
+        </script>
+    </body>
+</html>

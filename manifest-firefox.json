@@ -1,0 +1,51 @@
+{
+    "id": "jaxx@mozilla.org",
+    "name": "Jaxx Blockchain Wallet",
+    "version": "1.2",
+    "manifest_version": 2,
+    "description": "Unifying the Blockchain Wallet experience across devices.",
+    "applications": {
+        "gecko": {
+            "id": "jaxx@mozilla.org"
+        }
+    },
+    "permissions": [
+        "storage",
+        "background",
+        "notifications",
+        "tabs",
+        "<all_urls>",
+        "https://api.kryptokit.com/",
+        "https://s3.amazonaws.com/"
+    ],
+    "icons": {
+        "16": "img/jaxx_16.png",
+        "48": "img/jaxx_48.png",
+        "128": "img/jaxx_128.png"
+    },
+
+    "browser_action": {
+        "default_icon": {
+            "19": "img/jaxxb_19.png",
+            "38": "img/jaxxb_38.png"
+        },
+        "default_popup": "index.html"
+    },
+    "background": {
+        "scripts": [
+            "js/thirdparty.js",
+            "js/network.js",
+            "js/request.js",
+            "js/wallet/wallet.js",
+            "js/wallet/ethereum_wallet.js",
+            "js/thirdparty/aes.js",
+            "js/thirdparty/bitcoinjs.min.js",
+            "js/thirdparty/jquery-2.1.4.min.js",
+            "js/thirdparty/lightwallet.min.js",
+            "js/utils/util.js",
+            "js/utils/cacheUtils.js",
+            "js/platform/platformUtils.js",
+            "js/platform/firefoxExtensionRunner.js"
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24"
+	 style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#596572;}
+</style>
+<title>Icon_down</title>
+<desc>Created with Sketch.</desc>
+<g id="Welcome" sketch:type="MSPage">
+	<g id="Mobile-Portrait" transform="translate(-5681.000000, -5696.000000)" sketch:type="MSArtboardGroup">
+		<g id="Icon_down" transform="translate(5681.000000, 5696.000000)" sketch:type="MSLayerGroup">
+			<path id="Shape" sketch:type="MSShapeGroup" class="st0" d="M22,12c0,5.5-4.5,10-10,10S2,17.5,2,12S6.5,2,12,2S22,6.5,22,12
+				L22,12z M24,12c0-6.6-5.4-12-12-12S0,5.4,0,12s5.4,12,12,12S24,18.6,24,12L24,12z M12,14L7.5,9.5L6,11l6,6l6-6l-1.5-1.5L12,14
+				L12,14z"/>
+		</g>
+	</g>
+</g>
+</svg>

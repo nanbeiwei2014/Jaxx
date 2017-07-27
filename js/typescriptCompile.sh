@@ -1,0 +1,12 @@
+tsc -w ./app/*.ts
+tsc -w ./com/*.ts
+tsc -w ./datastore/*.ts
+tsc -w ./services/bitcoin/*.ts
+tsc -w ./services/blockchain/*.ts
+tsc -w ./services/blockr/*.ts
+tsc -w ./services/dash/*.ts
+tsc -w ./services/ethereum/*.ts
+tsc -w ./services/ethereum-classic/*.ts
+tsc -w ./services/lisk/*.ts
+tsc -w ./services/litecoin/*.ts
+tsc -w ./services/zcash/*.ts

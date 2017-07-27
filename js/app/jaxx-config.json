@@ -1,0 +1,48 @@
+{
+  "ver": "1.01",
+  "defaults": {
+    "checkBalances": 15000,
+    "checkCurrentBalanceReceive": 5000
+  },
+  "coinsOptions": {
+    "BTC":{
+            "id": 0,
+            "name": "Bitcoin",
+            "coin_HD_index": 0,
+            "request": "RequestBitcoin",
+            "checkBalances": 15000,
+            "checkCurrentBalanceReceive": 5000
+          },
+    "ETH":{
+            "id": 1,
+            "name": "Ethereum",
+            "coin_HD_index": 60,
+            "request": "EthereumService",
+            "checkAllBalances": 30000,
+            "checkCurrentBalanceReceive": 5000,
+            "tokens": [
+            ]
+  },
+    "DASH":
+          {
+        "id": 3,
+        "name": "Dash",
+        "coin_HD_index": 1,
+        "request": "RequestBitcoin",
+        "checkBalances": 15000,
+        "checkCurrentBalanceReceive": 5000
+  },
+    "LTC":
+        {
+        "id": 6,
+        "name": "LIGHT",
+        "coin_HD_index": 2,
+        "request": "CryptoLitecoin",
+        "urlBalance": [
+        ""
+        ]
+        }
+  }
+
+
+}

@@ -1,0 +1,113 @@
+<html>
+    <body style="padding: 20px 40px;">
+        <h1>Test</h1>
+        <p>
+            No news is good news...
+        </p>
+
+        <textarea id="output" style="width: 100%; height: 400px; padding: 7px 20px; font-family: monospace; font-size: 15px;"></textarea>
+
+        <script src="js/thirdparty.js"></script>
+        <script src="js/network-prod.js"></script>
+        <script src="js/request.js"></script>
+
+        <script src="js/wallet/wallet.js" type="text/javascript"></script>
+
+        <script src="test-begin.js" type="text/javascript"></script>
+
+        <script type="text/javascript">
+
+            var contact, shouldFail, shouldPass;
+            var mnemonic, rootKey, wallet;
+            var nextAddress;
+
+
+            // 12 word mnemonic
+            mnemonic = "leisure okay dream inch wheel coconut gold news guilt virus bar wedding"
+            rootKey = "xprv9s21ZrQH143K48z8iVPsEKNruaxCz7NyMZtFRLJZpWkn26UytUhBq1u7rFvKoANZJiFRQ7cxbeFCXLPjUN6cv3ECvfYZHG6ZBNpjUvzLccC";
+            wallet = new HDWallet(mnemonic);
+            //wallet.stop();
+
+            assertTrue(mnemonic === wallet.getMnemonic(), 'Wallet mnemonic and original do not match');
+            assertTrue(wallet._rootNode.toString() == rootKey, "Wallet did not generate correct root key");
+
+
+            // 24 word mnemonic
+            mnemonic = 'hurt party bracket year since crane purpose cushion rapid push buddy recall dog lucky sight rigid approve robot tray crack glare praise friend divide';
+            rootKey = 'xprv9s21ZrQH143K4YHZuiPPffWviymBExgnG7qLRuuACpE9ymkcRGJk36ppybgEFJ5KLSsQgTuAKLUadUf328NRK85yP2sPBTmRWXnFR3XQsux';
+            wallet = new HDWallet(mnemonic);
+            //wallet.stop();
+
+            assertTrue(mnemonic === wallet.getMnemonic(), 'Wallet mnemonic and original do not match');
+            console.log(wallet._rootNode.toString(), rootKey);
+            assertTrue(wallet._rootNode.toString() == rootKey, "Wallet did not generate correct root key");
+
+
+            // Test receive addresses
+
+            nextAddress = '1M8neooARWUbuUTa3McX9YA83ZaKgmPR3g';
+            assertTrue(nextAddress === wallet.currentReceiveAddress(), 'Wallet returned wrong next address')
+
+            //nextAddress = '16QAe6bPAGG6Wk8RuMPPy5bgTK15m8bGV';
+            //assertTrue(nextAddress === wallet.nextReceiveAddress(), 'Wallet returned wrong next address')
+
+            //nextAddress = '1JDCNysSgbCRS9VS9Ku77adnaHwzwsESzY';
+            //assertTrue(nextAddress === wallet.nextReceiveAddress(), 'Wallet returned wrong next address')
+
+
+            // Test change addresses
+            nextAddress = '1K9KMYh7v3zUaq57EHYhSTqe2wBcJudsDT';
+            assertTrue(nextAddress === wallet.nextChangeAddress(), 'Wallet returned wrong next address')
+            wallet._currentChangeIndex++;
+
+            nextAddress = '1G6vCXHSwofm8YUjhCHKTLMK3CirRnfwXX';
+            assertTrue(nextAddress === wallet.nextChangeAddress(), 'Wallet returned wrong next address')
+            wallet._currentChangeIndex++;
+
+            nextAddress = '131MK7xxrjMFJdhCch5MhEhHXXnzMNbkon';
+            assertTrue(nextAddress === wallet.nextChangeAddress(), 'Wallet returned wrong next address')
+            wallet._currentChangeIndex++;
+            
+
+            // Test getting transactions
+            mnemonic = "toward voice denial bar help wagon want ready loyal sugar utility diary";
+            wallet = new HDWallet(mnemonic);
+
+
+            // Temporary hijack... I used Hive Wallet to test, which doesn't use BIP44, so we
+            // are circumventing our BIP44 to behave like Hive.
+            wallet._receiveNode = wallet._rootNode.deriveHardened(0).derive(0);
+            console.log(wallet._receiveNode.neutered().toString());
+            wallet._changeNode = wallet._rootNode.deriveHardened(0).derive(1);
+            wallet._checkTransactions();
+
+            //var tx = wallet.createTransaction("1RicMooMWxqKczuRCa5D2dnJaUEn9ZJyn", 0.001);
+    
+            beginAsyncTest();
+            wallet.addListener(function (wallet) {
+                return function () {
+
+                    // Wait until we get all our transactions
+                    var transactionCount = wallet.getTransactions().length;
+                    var balance = wallet.getBalance();
+
+                    console.log(transactionCount, balance, wallet.unspentCalls);
+
+                    if (transactionCount !== 12 || balance !== 0 || wallet.unspentCalls === 0) { return; }
+
+                    assertTrue(wallet.nextReceiveAddress() === "15FVyBhgyzvEwKQB1dL2MafyGcUXYJXagP", "Address Index not updated correctly");
+                    wallet.removeListener(this);
+
+                    endAsyncTest();                
+                };
+            }(wallet));
+
+
+            // Test namecoin address
+            assertTrue(wallet.getNamecoinAddress() === "N5Pve4vbQYFpCZRPjzTxLBKtdWS1upu1rz", "Wallet generated wrong namecoin address");
+
+        </script>
+
+        <script src="test-end.js" type="text/javascript"></script>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "outFile": "./send-module.js"
+  },
+  "include": [
+  "./**/*"
+],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}

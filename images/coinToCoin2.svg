@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="72px" height="15px" viewBox="0 0 72 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>arrowRight</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.8">
+        <g id="New-Shapeshift-" transform="translate(-349.000000, -481.000000)">
+            <g id="arrowRight" transform="translate(384.489459, 488.200000) rotate(-90.000000) translate(-384.489459, -488.200000) translate(377.989459, 452.700000)">
+                <g id="group">
+                    <rect id="Rectangle-5" fill="#FFFFFF" transform="translate(6.200000, 35.176338) rotate(-90.000000) translate(-6.200000, -35.176338) " x="-28.3" y="33.676338" width="69" height="3"></rect>
+                    <polyline id="shape" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(6.200000, 67.676338) rotate(-90.000000) translate(-6.200000, -67.676338) " points="9.3 73.7890141 3.1 67.676338 9.3 61.563662"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

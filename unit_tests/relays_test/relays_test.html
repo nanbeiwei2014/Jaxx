@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Jaxx Relays</title>
+
+        <script src="../../js/thirdparty/jquery-2.1.4.min.js"></script>
+
+        <script language="javascript">
+            exports = {};
+        </script>
+
+        
+        <script type="text/javascript" src="../../js/jaxx_main/jaxx_constants.js"></script>
+        <script type="text/javascript" src="../../js/request.js"></script>
+        <!-- BitcoinRelays object - This is the relay manager -->
+        <script type="text/javascript" src="../../js/relays/relay_manager.js"></script>
+        <script type="text/javascript" src="../../js/relays/relay_manager_impl_bitcoin.js"></script>
+        <script type="text/javascript" src="../../js/relays/relay_manager_impl_litecoin.js"></script>
+        <script type="text/javascript" src="../../js/relays/relay_manager_impl_lisk.js"></script>
+        <script type="text/javascript" src="../../js/relays/relay_manager_impl_zcash.js"></script>
+        <script type="text/javascript" src="../../js/relays/relay_manager_impl_dash.js"></script>
+        <script type="text/javascript" src="../../js/relays/relay_manager_impl_doge.js"></script>
+        <!-- relay_task - A helper class that the relay manager uses to encapsulate a process that is running -->
+        <script type="text/javascript" src="../../js/relays/relay_task.js"></script>
+        <!-- Bitcoin relays -->
+        <script type="text/javascript" src="../../js/relays/relay_nodes_bitcoin/blockchain_relay.js"></script>
+        <script type="text/javascript" src="../../js/relays/relay_nodes_bitcoin/blockcypher_relay.js"></script>
+        <script type="text/javascript" src="../../js/relays/relay_nodes_bitcoin/blockexplorer_relay.js"></script>
+        <script type="text/javascript" src="../../js/relays/relay_nodes_bitcoin/blockr_bitcoin_relay.js"></script>
+        <script type="text/javascript" src="../../js/relays/relay_nodes_bitcoin/jaxx_btc_insight_relay.js"></script>
+
+
+        <!-- Litecoin relays -->
+        <script type="text/javascript" src="../../js/relays/relay_nodes_litecoin/blockr_litecoin_relay.js"></script>
+        <script type="text/javascript" src="../../js/relays/relay_nodes_litecoin/jaxx_ltc_custom_relay.js"></script>
+
+        <!-- Lisk relays -->
+        <script type="text/javascript" src="../../js/relays/relay_nodes_lisk/jaxx_lsk_custom_relay.js"></script>
+        <!-- ZCash relays -->
+        <script type="text/javascript" src="../../js/relays/relay_nodes_zcash/jaxx_zec_custom_relay.js"></script>
+        <!-- Dash relays -->
+        <script type="text/javascript" src="../../js/relays/relay_nodes_dash/jaxx_dash_custom_relay.js"></script>
+        <script type="text/javascript" src="../../js/relays/relay_nodes_dash/jaxx_dash_insight_relay.js"></script>
+        <!-- Doge relays -->
+        <script type="text/javascript" src="../../js/relays/relay_nodes_doge/jaxx_doge_custom_relay.js"></script>
+        <!-- The Javascript test framework -->
+        <script src="jaxxRelaysTests.js" language="javascript"></script>
+
+        <style>
+            .cssTestFailing {
+                color: red;
+            }
+            .cssTestPassing {
+                color: green;
+            }
+
+            .testResults {
+                display: none
+            }
+
+            .relayTestLinks li {
+                list-style: none;
+                display: inline-block;
+                width: 19%;
+                text-align: center;
+                font-family: arial;
+            }
+
+            .displayTests {
+                height: 400px;
+                max-height: 100%;
+                border: 3px solid black;            
+            }
+
+            .linkActive {
+                background: green;
+                line-height: 2em;
+            }
+
+            .cssSucceed {
+                color:dodgerblue;
+            }
+            .cssFail {
+                color:deeppink;
+            }
+
+            .cssReference {
+                color:darkolivegreen;
+            }
+
+            .cssSuperNumerary {
+                color:darkslateblue;
+            }
+            
+            .cssBlockchain {
+                color: coral;
+            }
+        </style>
+        <script language="javascript">
+            var baseLog = function(outputString) {
+                window.doLog.apply(console, [outputString]);
+            }
+
+            var onStart = function() {
+                window.doLog = console.log;
+
+                var g_JaxxApp = new JaxxApp();
+                g_JaxxApp.initialize();
+                g_JaxxApp.startTest();
+            }
+        </script>
+    </head>
+    <body onload="onStart();">
+        <div style="display:none;">
+            <p>Relay Tests</p>
+            <section >
+                <header class='relayTestLinks'>
+                    <li class='testLink linkActive' id='allTestsLink'> All Tests</li>
+                    <li class='testLink' id='txListLink'> Transaction List</li>
+                    <li class='testLink' id='txDetailsLink'> Transaction Details</li>
+                    <li class='testLink' id='txBalanceLink'> Transaction Balance </li>
+                    <li class='testLink' id= 'blockHeightLink'> Block Height </li>
+
+                </header>
+            </section>
+
+            <section class='testrestults allTests displayTests'>      </section> 
+            <section class="testrestults txList">        </section>
+            <section class="testrestults txDetails">     </section> 
+            <section class="testrestults txBalance">     </section> 
+            <section class="testrestults txBlockHeight"> </section> 
+
+            <script>
+            </script>
+        </div>
+        <div class="output"></div>
+    </body>
+</html>
+
+

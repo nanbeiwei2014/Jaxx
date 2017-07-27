@@ -1,0 +1,1276 @@
+
+/**
+ *  This stylesheet is for images converted to base64 css divs.
+ *
+ *  To add an image to this, copy the div.imageTemplate and fill in the correct
+ *  width, height and url. The url can be generated using:
+ *
+ *    $ python dump-base64.py filename [filename ...]
+ *
+ *  Other notes
+ *    - ONLY use classes (no id's)
+ *    - every class must begin with the prefix image
+ *    - please keep css properties ordered alphabetically
+ */
+
+div.imageLogoBanner {
+    /* images/logo-banner.png */
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADsAAAAXCAYAAAC1Szf+AAADJ0lEQVRYw+2YTWxMURTHp75apERZTEqaaZBU0sGCKpEoaknLQiSkkm4a34RNY1ITiUkojYWFdoFgocQKZeEjggRRZSGRSnwlEqkmNBSV8PyvnCenJ+feee/pxqSLXzrvfNx7z73nnvNeY57nxTifd5fuBB5jrrT5X4kNBzscrKfZJkAK3ALdxA3QCEqyTQ6bjeCoQ18ILoHZim4COAcqHf4rQRsoiBwsZPmgGfwQtpzvIAPGWPxbmW2dZbHtpP9qNobJk+AF6d6CKYpvKfhINp3mOXSweB4HbjuClFwHY8UYB4RNPygXNtuUsRbSRr0T8mtghNjMTmHzNEqw7coi+sBdcJ9OVOpPKun5XNiY50LSVyhZ08b8Vylz7GP640JnxqoMFSx+L1MG2WN2ktlMBC3KYhaJecrpRLnNeTCZUpPLH/v3jvkfFDY/wQqwQZl7R+g7i98dQrfOURyahO1FxaZOWdgb8Wzu3XTFd6RynT4oG3ghdDU29w4MMPnNLJV2FHjN7L9YilVrljtf45gjDt47fLv9qxE22DIh3x6gtRwTPgnFpkApJj6HAsxRRSnsKUUvGanP4u8CIV8fYCHpID0b8sXKYnu1TLD4nwmyUWGCTQj5/qEIFrLRVMm1k20KMEeFpd+bDjEzarCmIPSIQpI/BMEecdw5k57VjvGLlMo9qLfyHh+2GstictpsQtRg8bxaWWCP8jxVGTsPXBW2n0QRHdTjtQVmhHEZ05UoLw0PwBpQDGaAejA/W7Bk2yf0V2gcWWHvmXQX60wpG1ULNinyeluwD5nRL166Sb81wCtirStYamNPhM60qSLSL1UqbAtbw3JF38z0Z4XuG5gjA10rjLos6Zn6x2CrRIYM+NnA5mgUvi/Nlw7pTgndHdPXme948EzYZHhFbKCvC26wxXEfl4BHUYIl3TzwiuSbLXfyMuk7/FNnur10uiblixX/WfQiYzay4U8a0/dir7LgLnlPLEEnqagdNt+m9DvOTjDNiCvVdFeWamvGy7Poq03KO/xrzKb+LVCWkzHfitNy5T8UtmBNWpwAk3ItUD/Yfmofae3dNZf4Dcig9xG9eS8sAAAAAElFTkSuQmCC)
+                no-repeat center center;
+    display: inline-block;
+    height: 23px;
+    width: 59px;
+}
+
+div.imageLogoBannerSVG {
+    /* images/logo-banner.svg */
+    background: 
+        url(images/logo-banner-new.svg)
+        no-repeat center center;
+    display: inline-block;
+    height: 21px;
+    width: 44px;
+    margin-left: 13px;
+    margin-bottom: 8px;
+    float:left;
+    background-size: 100%;
+    position: absolute;
+}
+
+div.imageLogoBannerBTC {
+    /* images/bitcoin-here-gray.png */
+    background: 
+        url(images/bitcoin-here-gray.svg)
+        no-repeat center center;
+    display: inline-block;
+    /*
+    height: 17px;
+    width: 43px;
+    */
+    margin-bottom: 11px;
+    /*    margin-left: 25px;*/
+    cursor: pointer;
+    background-size: 100% !important;
+    float:left;
+    /*    margin-top: 3px;*/
+}
+
+div.imageLogoBannerETH {
+    /*    images/ether-gray.svg   */
+    background:
+        url(images/ether-new-gray.svg)
+        no-repeat center center;
+    display: inline-block;
+    /*
+    height: 17px;
+    width: 38px;
+    */
+    margin-bottom: 11px;
+    cursor: pointer;
+    /*    margin-left: 25px;*/
+    background-size: 100% !important;
+    float:left;
+    /*    margin-top: 3px;*/
+}
+
+div.imageLogoBannerETC {
+    /*    images/ether-gray.svg   */
+    background:
+        url(images/ether-classic-new-gray.svg)
+        no-repeat center center;
+    display: inline-block;
+    /*
+    height: 17px;
+    width: 38px;
+    */
+    margin-bottom: 11px;
+    cursor: pointer;
+    /*    margin-left: 25px;*/
+    background-size: 100% !important;
+    float:left;
+    /*    margin-top: 3px;*/
+}
+
+div.imageLogoBannerDAO {
+    background:url(images/DAOlogo-gray.svg)
+        no-repeat left center;
+    display: inline-block;
+    /*
+    height: 17px;
+    width: 46px;
+    */
+    margin-bottom: 11px;
+    /*    margin-left: 25px;*/
+    cursor: pointer;
+    background-size: 100% !important;
+    float:left;
+    /*    margin-top: 3px;*/
+}
+
+
+div.imageLogoBannerDASH {
+    background:url(images/dash-here-gray.svg)
+        no-repeat left center;
+    display: inline-block;
+    /*
+    height: 17px;
+    width: 46px;
+    */
+    margin-bottom: 11px;
+    /*    margin-left: 25px;*/
+    cursor: pointer;
+    background-size: 100% !important;
+    float:left;
+    /*    margin-top: 3px;*/
+}
+
+div.imageLogoBannerREP {
+    background:url(images/REPlogo-gray.svg)
+        no-repeat left center;
+    display: inline-block;
+    /*
+    height: 17px;
+    width: 46px;
+    */
+    margin-bottom: 11px;
+    /*    margin-left: 25px;*/
+    cursor: pointer;
+    background-size: 100% !important;
+    float:left;
+    /*    margin-top: 3px;*/
+}
+
+div.imageLogoBannerICN {
+    background:url(images/ICNlogo-gray.svg)
+        no-repeat left center;
+    display: inline-block;
+    /*
+    height: 17px;
+    width: 46px;
+    */
+    margin-bottom: 11px;
+    /*    margin-left: 25px;*/
+    cursor: pointer;
+    background-size: 100% !important;
+    float:left;
+    /*    margin-top: 3px;*/
+}
+
+div.imageLogoBannerGNT {
+    background:url(images/GNTlogo-gray.svg)
+        no-repeat left center;
+    display: inline-block;
+    /*
+    height: 17px;
+    width: 46px;
+    */
+    margin-bottom: 11px;
+    /*    margin-left: 25px;*/
+    cursor: pointer;
+    background-size: 100% !important;
+    float:left;
+    /*    margin-top: 3px;*/
+}
+
+div.imageLogoBannerGNO {
+    background:url(images/GNOlogo-gray.svg)
+        no-repeat left center;
+    display: inline-block;
+    /*
+    height: 17px;
+    width: 46px;
+    */
+    margin-bottom: 11px;
+    /*    margin-left: 25px;*/
+    cursor: pointer;
+    background-size: 100% !important;
+    float:left;
+    /*    margin-top: 3px;*/
+}
+
+div.imageLogoBannerSNGLS {
+    background:url(images/SNGLSlogo-gray.svg)
+        no-repeat left center;
+    display: inline-block;
+    /*
+    height: 17px;
+    width: 46px;
+    */
+    margin-bottom: 11px;
+    /*    margin-left: 25px;*/
+    cursor: pointer;
+    background-size: 100% !important;
+    float:left;
+    /*    margin-top: 3px;*/
+}
+
+div.imageLogoBannerDGD {
+    background:url(images/DGDlogo-gray.svg)
+        no-repeat left center;
+    display: inline-block;
+    /*
+    height: 17px;
+    width: 46px;
+    */
+    margin-bottom: 11px;
+    /*    margin-left: 25px;*/
+    cursor: pointer;
+    background-size: 100% !important;
+    float:left;
+    /*    margin-top: 3px;*/
+}
+
+div.imageLogoBannerBCAP {
+    background:url(images/BCAPlogo-grey.svg)
+        no-repeat left center;
+    display: inline-block;
+    /*
+    height: 17px;
+    width: 46px;
+    */
+    margin-bottom: 11px;
+    /*    margin-left: 25px;*/
+    cursor: pointer;
+    background-size: 100% !important;
+    float:left;
+    /*    margin-top: 3px;*/
+}
+
+div.imageLogoBannerCVC {
+    background:url(images/CVClogo-grey.svg)
+        no-repeat left center;
+    display: inline-block;
+    /*
+    height: 17px;
+    width: 46px;
+    */
+    margin-bottom: 11px;
+    /*    margin-left: 25px;*/
+    cursor: pointer;
+    background-size: 100% !important;
+    float:left;
+    /*    margin-top: 3px;*/
+}
+
+div.imageLogoBannerLTC {
+    background:url(images/litecoin-here-gray.svg)
+        no-repeat left center;
+    display: inline-block;
+    /*
+    height: 17px;
+    width: 46px;
+    */
+    margin-bottom: 11px;
+    /*    margin-left: 25px;*/
+    cursor: pointer;
+    background-size: 100% !important;
+    float:left;
+    /*    margin-top: 3px;*/
+}
+
+div.imageLogoBannerDOGE {
+    background:url(images/doge-here-gray.svg)
+        no-repeat left center;
+    display: inline-block;
+    /*
+    height: 17px;
+    width: 46px;
+    */
+    margin-bottom: 11px;
+    /*    margin-left: 25px;*/
+    cursor: pointer;
+    background-size: 100% !important;
+    float:left;
+    /*    margin-top: 3px;*/
+}
+
+div.imageLogoBannerLSK {
+    background:url(images/lisk-here-gray.svg)
+        no-repeat left center;
+    display: inline-block;
+    /*
+    height: 17px;
+    width: 46px;
+    */
+    margin-bottom: 11px;
+    /*    margin-left: 25px;*/
+    cursor: pointer;
+    background-size: 100% !important;
+    float:left;
+    /*    margin-top: 3px;*/
+}
+
+div.imageLogoBannerZEC {
+    background:url(images/zcash-here-gray.svg)
+        no-repeat left center;
+    display: inline-block;
+    /*
+    height: 17px;
+    width: 46px;
+    */
+    margin-bottom: 11px;
+    /*    margin-left: 25px;*/
+    cursor: pointer;
+    background-size: 100% !important;
+    float:left;
+    /*    margin-top: 3px;*/
+}
+
+div.imageLogoBannerSBTC {
+    /*    images/ether-gray.svg   */
+    background:
+        url(images/rootstock-here-gray.svg)
+        no-repeat center center;
+    display: inline-block;
+    /*
+    height: 17px;
+    width: 38px;
+    */
+    margin-bottom: 11px;
+    cursor: pointer;
+    /*    margin-left: 25px;*/
+    background-size: 100% !important;
+    float:left;
+    /*    margin-top: 3px;*/
+}
+
+div.imageLogoBannerRSK {
+    /*    images/ether-gray.svg   */
+    background:
+        url(images/rootstock-here.svg)
+        no-repeat center center;
+    display: inline-block;
+    /*
+    height: 17px;
+    width: 38px;
+    */
+    margin-bottom: 11px;
+    cursor: pointer;
+    /*    margin-left: 25px;*/
+    background-size: 100% !important;
+    float:left;
+    /*    margin-top: 3px;*/
+}
+
+/*=== Select which currency to ShapeShift Icon ===*/
+div.imageLogoCurrencyToCurrency {
+/*    background: url(images/bitcoin-here-gray.svg) no-repeat center center;*/
+    display: inline-block;
+    height: 18px;
+    width: 60px;
+    cursor: pointer;
+    font-weight: 200;
+    margin-bottom: 1px;
+    float: left;
+    position: relative;
+    left: 0;
+}
+/*=== Select which currency to ShapeShift Icon Ends ===*/
+div.imageLogoSplash {
+    /* images/logo-splash.png */
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJ4AAABACAYAAADrsc4kAAAIuUlEQVR42u1de5BPZRhukbDYWplcdnVhijEuhTDFJFKMYlySiEGMNiK3iUqxYhXVpDGIyC2XScMYkks73WUHUdsWFYUkiShKOX3feJd1nN853/Ndzu+c7fvj+WNn9rzf7Tnne7/3fd7vd5njOJdZWIQNOwkWSSbe4IoIKjN8y3A0AB1BuxbFHYrEu4bhOIMTgO52si10E+9XAeJ1s5NtYYlnYYlnYYlniWdhiWdhiRdH4pWwi2uJZ5J4VzG0YRjBMJ9hM8NWhh0MeQy5DAsZnmBoR3HHMCf4cWpb90s1g6GDBlsVyFYbzX2syfA6w7XFiXilGNozLGI4INB2URxmWMHQhaGMQcKVZ5hVpN12Gm2PJZt/M4xSsFOX4VOy9R2tpY7+Xc6wgex+n5DUMSPe/QxbQLIlwi6G/kRknaTjC/qJq639DNdpsH03wxmX7TcZ0kE7fD2OuOys1uSi5Ljs/uX5gsSEePUY1mkinBsfMDTXRLru9FX1aoe7AVco2K7h84XfydBYcLeY5DMXzyiOv7OPbf6CXB0n4vWlfK9jEH+Sn6iyvUwRaOcFBfdiU4Btnrrs52MjU+Dl/YfcGJk+3sjwi8Au0zQOxMsxTDg3XmMoDfaxlgApVPPWUwD7sxmudD3Pfcy9gs//xHA92L9yHu5FIpxgyIoy8V4NmXSFWAb6fbeD9vnXuzZgvyvDWcA+J05Vl42nwD7mgi/gDND+iqgSb0qSSFeIuWB/h4D2P2NIFbBb2+MQ4IdTDC0ShGBWgn2cBrhC6KEuPYrE65Nk0hViNDgXC0D7swPspRYJd4hiaIB2cjdo74GAPt7C8Dtgj/9voyj6ePwNPyZBEv6mf8Qwh2EcHd8nUPD4c0ni8TjZbcBcpFHgGmljgI+9maCthQJ9bE4HKcQtqJvAFvcjvwD72Deqp1o0ZHKQYTxDHR+bPITRjAK6p0D7eWCguQH44nBHu4mHnX5gP3d6HCgSIQu0vZUyHG47i0E7M6Max+sEDoSnZKqD/eXE2Ai2MwhsozdoP98VAOZb0Ulw+2oI9nE+2Mc5rueHgc/zoH/ZKBKvFODP/EsDV0m5IaewPZQCM3kiX0rPVVTavjC3YDvYzkB6tgW4cxzxPMVHhHhtgIEM1pRlmAW02Qu0XZZ8TmRhh9NpGnlmhsL460u4BTy08yXYxy5RztW+IeUnqKE0QI71EvZ5YPlng6fujylwqzIHvQxHBnKirE5JoyR6kI19EsnwIHB/6rSgH1VDwn4nQwvKU1M3aZqDVwz1caNvEDoCxGspOJBhjhkJk+jpTDbt95zmBT2bcPuSAz/1f6i5jz8GvqgRIN5wwXhSVUPEayWYknpRQUCwPpTtS024qcst4LKttnFQIM8TeH6dQdFmqmACfY1CGxlAkt4P7xKRTcxDR4oYqPZxTFyk7yJfg/GGJeprBYPJKqLR1iSKVNm+MgzPQ7Yi6d6OS81FCp3OTMSqEIjE9XYLJvb9MFph+2pjeA4KY5xrJfv4DVTTkmTilaIviWqyWrdc2wt7KcCr2tZCicPE8BALlPiaFkhIvRpD7SSZeCUEMxZ9DE/2pBCJNxVcVO539QiReGUoP4v08RAcboqAjyeSO326mBCvByjqLPpFqRcS8eYo1K6UiRPxROJoq4oB8bi86DcFx32bpi+uHwYoHi6mx4l4IrJsXrlVKcbESyXiqIYq5hmcAy7P+kNDHx+KC/HaaRBNRp14cx19AeQsA+OvRPIsHf07RvKzyBNP1EaBhnBGMog3yEApZjPN41+uuY87AucqIuqUVYIDej5mxGuqafty4+uLiqPVMMqQSGBBHIjXXXAwvOD4wZgQjxPjK4OSo5Uaxn2nYjYlCI9GnXipQAUUlzH1jDjxUpxzlwOhJ0K05mSMwpirkdTMAV76MVTnghRhNTdBvAzBqqVOBopQciQk6SVDIh6aGnufyJpJBdlIJdxdkqkxlOTZzoWLk9RTaYrEayLY+D2CEXO0FLGACBskmapFRH0sBOK1JkIgUf+aRZ7vAKpEfiDCmhQDvOMSSEyTEA+k6CTeQMFPdFNBe3c4l17DJarIXU0qlkGUYssism2megE/LZsu4lUnIiDpsHs97DwLjn8DIJe6D8ye7KVt2S0efQ/s41idxBM5hh8H38hsg85utkHilZQQfE7wsbUGtDXZgODzDAllvWzxi30OgG5BWx3EyxCsUsoHdWxcOPBWDImHStzXOv4XIVZxzt3UidjsHFD5hkrcg24cbQ/uUPvPiwkUiDdZsLHFEs5vBefCdaZxIF5PDdtXonoUJNzBxQQ3J5Dfzwbnavklfpk3xkmICdJkiVe/iN8UhIclj/sVgMBysok3HejDafJlkQu8VQu808FccT6QG08h/xrxx+vIEK8SUIV+QlGuXZqKbOKw1Q4T/DqNlJiHJYLSeL+b4NMF65f59Rm3SsRzRdyCXIowwFttJugnLNEU4OXlfHsiTrzCU7lfP5dKjp//rMKugBrWGwRtDQmIvcqKMVoE1Ci/fJFeDyBeN9DZRcIool/aiU7wPbt+mBhCHK96gq0nX7EgvZHjfRfdVAe/PrclBXaDLudBMTSB39kbDSBXo4dyJRZ5kaGEfialbrZL9GmSghz9MN16IJohGV8kEHzSKbyQUA39XAuqkjqs4vKh8zSpfxa5bDYUTZnxwOtLFCA8LPllOSQRTZdJ+/DFHEGDzaM84lEK8xylv7fRlj/6vH/hvaCbqG7VCxuoDfSuEp4q5D8y8ojGcc+lDE8DDbZKUBhon5P4AkYU/J6+neRWpCEiAdWi3rOCuVkTv1+WSm9yJjm85X3ys2FWbaVotFfOgARe9y0NlQPH7EE81d+UGJnkhbaI6Y/oqRDvSTupFmESj8fr+tsJtQiTeFskAo4WlnjSxDtIJ8WydiItwiDeHqrsr2on0EIn8U4kULnyWFjXEKrZLf6nxCugrMAy+rK1MlzFb2GJZ2ERLuwkWCQF/wH/PekvU4h9nQAAAABJRU5ErkJggg==)
+                no-repeat center center;
+    display: inline-block;
+    height: 64px;
+    width: 158px;
+}
+
+div.imageLogoMask {
+    /* images/logo-mask.png */
+    background: url(data:image/png;base64,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)
+                no-repeat center center;
+    background-size: cover;  /* Scale to fill the entire area */
+}
+
+div.imageIconMenu {
+	background: url(images/icon-menu.svg)
+        no-repeat center center;
+    display: inline-block;
+    height: 17px;
+    width: 18px;
+}
+/*=== Hamburger manu ===*/
+.material-design-hamburger {
+    float: right;
+    z-index: 16;
+    display: none;
+    position: relative;
+    top: 12px;
+    right: 1.2%;
+}
+.material-design-hamburger button {
+    z-index: 16;
+    display: block;
+    border: none;
+    background: none;
+    outline: 0;
+    /*rohit change*/
+    padding-top: 8px;
+}
+
+
+.material-design-hamburger__icon {
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.material-design-hamburger__layer {
+    display: block;
+    width: 16px;
+    height: 2px;
+    background: #fff;
+    position: relative;
+    -webkit-animation-duration: 300ms;
+    animation-duration: 300ms;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    border-radius: 4px;
+    
+}
+.cssHamburger:hover .material-design-hamburger__layer, .cssHamburger:hover .material-design-hamburger__layer:before, .cssHamburger:hover .material-design-hamburger__layer:after {
+ 
+    background:#90A4AE;
+}
+.material-design-hamburger__layer:before, .material-design-hamburger__layer:after {
+    border-radius: 4px;
+    display: block;
+    width: inherit;
+    height: 2px;
+ 
+    position: absolute;
+    background: inherit;
+    left: 0;
+    content: '';
+    -webkit-animation-duration: 300ms;
+    animation-duration: 300ms;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+}
+
+.material-design-hamburger__layer:before {
+    bottom: 5px;
+}
+
+.material-design-hamburger__layer:after {
+    top: 5px;
+}
+
+.material-design-hamburger__icon--to-arrow {
+    -webkit-animation-name: material-design-hamburger__icon--slide;
+    animation-name: material-design-hamburger__icon--slide;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.material-design-hamburger__icon--to-arrow:before {
+    -webkit-animation-name: material-design-hamburger__icon--slide-before;
+    animation-name: material-design-hamburger__icon--slide-before;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.material-design-hamburger__icon--to-arrow:after {
+    -webkit-animation-name: material-design-hamburger__icon--slide-after;
+    animation-name: material-design-hamburger__icon--slide-after;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.material-design-hamburger__icon--from-arrow {
+    -webkit-animation-name: material-design-hamburger__icon--slide-from;
+    animation-name: material-design-hamburger__icon--slide-from;
+}
+
+.material-design-hamburger__icon--from-arrow:before {
+    -webkit-animation-name: material-design-hamburger__icon--slide-before-from;
+    animation-name: material-design-hamburger__icon--slide-before-from;
+}
+
+.material-design-hamburger__icon--from-arrow:after {
+    -webkit-animation-name: material-design-hamburger__icon--slide-after-from;
+    animation-name: material-design-hamburger__icon--slide-after-from;
+}
+
+@-webkit-keyframes material-design-hamburger__icon--slide {
+    0% {
+    }
+    100% {
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+}
+
+@keyframes material-design-hamburger__icon--slide {
+    0% {
+    }
+    100% {
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg);
+    }
+}
+
+@-webkit-keyframes material-design-hamburger__icon--slide-before {
+    0% {
+    }
+    100% {
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        margin: 3% -10%;
+        width: 80%;
+    }
+}
+
+@keyframes material-design-hamburger__icon--slide-before {
+    0% {
+    }
+    100% {
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        margin: 3% -10%;
+        width: 80%;
+    }
+}
+
+@-webkit-keyframes material-design-hamburger__icon--slide-after {
+    0% {
+    }
+    100% {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        margin: -3% -10%;
+        width: 80%;
+    }
+}
+
+@keyframes material-design-hamburger__icon--slide-after {
+    0% {
+    }
+    100% {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        margin: -3% -10%;
+        width: 80%;
+    }
+}
+
+@-webkit-keyframes material-design-hamburger__icon--slide-from {
+    0% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    100% {
+    }
+}
+
+@keyframes material-design-hamburger__icon--slide-from {
+    0% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    100% {
+    }
+}
+
+@-webkit-keyframes material-design-hamburger__icon--slide-before-from {
+    0% {
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        margin: 3% -10%;
+        width: 80%;
+    }
+    100% {
+    }
+}
+
+@keyframes material-design-hamburger__icon--slide-before-from {
+    0% {
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        margin: 3% -10%;
+        width: 80%;
+    }
+    100% {
+    }
+}
+
+@-webkit-keyframes material-design-hamburger__icon--slide-after-from {
+    0% {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        margin: -3% -10%;
+        width: 80%;
+    }
+    100% {
+    }
+}
+
+@keyframes material-design-hamburger__icon--slide-after-from {
+    0% {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        margin: -3% -10%;
+        width: 80%;
+    }
+    100% {
+    }
+}
+
+/*=== Hamburger menu ends ===*/
+div.imageArrows {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAABlBMVEX///////9VfPVsAAAAAXRSTlMAQObYZgAAAB5JREFUeAFjAAJGMGKAMRkRTCBEKCDMhOqAGYCpAAAFlgAZuRqDKQAAAABJRU5ErkJggg==)
+        no-repeat center center;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+}
+
+div.imageArrowDown {
+	background: url(images/arrow_down.svg)
+        no-repeat center center;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+}
+
+
+div.imageArrowUp {
+	background: url(images/arrow_up.svg)
+        no-repeat center center;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+}
+
+@media screen and (max-width: 292px) {
+
+    div.imageArrowUp {
+        height: 22px;
+        width: 22px;
+    }
+    
+    div.imageArrowDown {
+        height: 22px;
+        width: 22px;
+    }
+}
+
+div.imageCamera {
+	background: url(images/icon-camera.svg)
+        no-repeat center center;
+    display: inline-block;
+    height: 19px;
+    width: 22px;
+}
+
+div.imageQR {
+    background: url(images/qr-code2.svg)
+        no-repeat center center;
+    display: inline-block;
+    height: 19px;
+    width: 22px;
+}
+
+div.imageCameraSmall {
+    background: url(images/icon-camera-small.svg)
+        no-repeat center center;
+    display: inline-block;
+    width: 22px;
+    height: 19px;
+    margin-left: 11px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 292px) {
+
+    div.imageCameraSmall {
+        height: 19px;
+        width: 22px;
+        margin-left: 6px;
+        margin-top: 6px;
+    }
+   
+}
+
+div.imageShapeshiftSmall {
+    background: url(img/FoxHead.svg)
+        no-repeat center center;
+    background-size: 100%;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 7px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+div.imageShapeshiftSmall:hover {
+    width: 25px;
+    margin-left: 10px;
+    height: 25px;
+    margin-top: 8px;
+}
+@media screen and (max-width: 292px) {
+    div.imageShapeshiftSmall {
+        height: 30px;
+        width: 30px;
+        margin-left: 3px;
+        margin-top: 3px;
+    }
+}
+
+div.imageCheck {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAFVBMVEXwaBHwaBHwaBHwaBHwaBHwaBHwaBFO9UCNAAAABnRSTlMAAQJ/gJ0TX751AAAANklEQVR42m3MUQoAIAgDUFfp/Y9sWbAJ+bU3mCYHn9Ydoc3YDsfPy9F9ghgVnzmmq6HZ0PcPnYAYAXDG6+sbAAAAAElFTkSuQmCC)
+        no-repeat center center;
+    display: inline-block;
+    height: 11px;
+    width: 16px;
+}
+
+div.imageCheckGreen {
+	background: url(images/icon-greencheck.svg)
+        no-repeat center center;
+    display: inline-block;
+    height: 14px;
+    width: 17px;
+}
+
+div.imageContact {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAVCAMAAAB8FU7dAAAA7VBMVEWEhIT///+EhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhITdoHEbAAAATnRSTlMAAAUGBwkMGBshIyQoKSovMDE4PD5ARUdPUFRVVlpfYGNmbHB0dXuHipuiqLGztba6u7y/wMHCxMnM0tPW2Nne4ePk5efq6+7v8ff4+v1emDZwAAAAuUlEQVR42l3OxxaCMBBA0UFQESv23nsBC/ZeULDk/z9HJqKc+BaTyd0k8Cmy3mzWMm4cZ1OWWOW+FAgFA544UsLtk/wSBx28FEScYgZnF2541GA6n8+ggvsLdnhcY7wg8NEL7mfYEpphmgahnZCcGJqkkkOWVmC1ZKiBVGWoj9RjiDQFvv7/Iv6BpREhY4aOMhRLED449BSB5r3/qAV2bUp7axZdPM1Vti466OSvB6QHqqIt7DRFHeTfQbJPT85DRf8AAAAASUVORK5CYII=)
+        no-repeat center center;
+    display: inline-block;
+    height: 21px;
+    width: 18px;
+    float: right;
+}
+
+div.imageCopy {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAMAAABl5a5YAAAABlBMVEVrgYprgYqiQW7eAAAAAXRSTlMAQObYZgAAACdJREFUeAFjYEQGDEAAJOAAlwCaLkZURSQIgPXTUQuYgQDEehgZAAA9qgBj2dzvogAAAABJRU5ErkJggg==)
+        no-repeat center center;
+    display: inline-block;
+/*    position: absolute;*/
+    position: fixed;
+    margin-left: 8px;
+    margin-right: 5px;
+/*    bottom: 23%;*/
+    height: 18px;
+    width: 16px;
+}
+
+div.imageCopy:hover {
+	background: url(images/hover-copy-icon.png)
+        no-repeat center center;
+}
+
+
+div.imageCopy:active {
+	background: url(images/active-copy-icon.png)
+        no-repeat center center;
+}
+
+.imageTransactionCopy {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAMAAABl5a5YAAAABlBMVEVrgYprgYqiQW7eAAAAAXRSTlMAQObYZgAAACdJREFUeAFjYEQGDEAAJOAAlwCaLkZURSQIgPXTUQuYgQDEehgZAAA9qgBj2dzvogAAAABJRU5ErkJggg==)
+        no-repeat center center;
+    display: inline-block;
+    margin-left: 8px;
+    margin-top: 7px;
+    height: 18px;
+    width: 16px;
+}
+
+.imageTransactionCopy:hover {
+    background: url(images/hover-copy-icon.png)
+        no-repeat center center;
+}
+
+
+.imageTransactionCopy:active {
+    background: url(images/active-copy-icon.png)
+        no-repeat center center;
+}
+
+
+
+
+div.imageCopy:{
+    	background: url(images/active-copy-icon.png)
+        no-repeat center center;
+    display: inline-block;
+/*    position: absolute;*/
+    position: fixed;
+    margin-left: 8px;
+    margin-right: 5px;
+/*    bottom: 23%;*/
+    height: 18px;
+    width: 16px;
+
+
+}
+div.imageCopy:hover{
+    	background: url(images/active-copy-icon.png)
+        no-repeat center center;
+    display: inline-block;
+/*    position: absolute;*/
+    position: fixed;
+    margin-left: 8px;
+    margin-right: 5px;
+/*    bottom: 23%;*/
+    height: 18px;
+    width: 16px;
+}
+    
+    
+
+
+
+
+
+
+>>>>>>> 6a736306e5dcd3a3ae258d7d8681436d04d0afee
+
+div.imageInfo {
+	background: url(images/info_icon.png)
+        no-repeat center center;
+    display: inline-block;
+    height: 23px;
+    width: 23px;
+}
+
+div.imageReturn {
+    /* images/icon-return.svg */
+    background: 
+url(images/icon-return.svg)
+        no-repeat center center;
+    display: inline-block;
+    height: 13px;
+    width: 6px;
+    cursor: pointer;
+}
+
+div.imageTwitter {
+    /* images/icon-twitter.svg */
+    background: 
+url(images/icon-twitter.svg)
+        no-repeat center center;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    height: 18px;
+    width: 21px;
+}
+
+div.imageWarning {
+	background: url(images/icon-warning2.svg)
+    no-repeat  center center;
+    background-size: 100%;
+    display: inline-block;
+    height: 21px;
+    width: 21px;
+}
+
+div.imageRefresh {
+	background: url(images/refresh.svg)
+        no-repeat center center;
+    display: inline-block;
+    height: 18px;
+    width: 22px;
+}
+div.imageRefresh:hover {
+    background: url(images/refresh_copy.svg);
+   display: inline-block;
+    height: 18px;
+    width: 22px;
+}
+
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6a736306e5dcd3a3ae258d7d8681436d04d0afee
+div.imageProfile {
+	background: url(data:image/png;base64,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)
+        no-repeat center center;
+        display: inline-block;
+    height: 125px;
+    width: 125px;
+}   
+
+div.imageBTCWash {
+    background: url(images/btc-wash.png)
+        no-repeat center center;
+    height: 100%;
+    width: 100%;
+    top: 10px;
+    left: 5px;
+    position: fixed;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+div.imageEtherWash {
+	background: url(images/ether-wash.png)
+    no-repeat  center center;
+    height: 100%;
+    width: 100%;
+    top: 10px;
+    left: 5px;
+    position: fixed;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+div.imageTheDAOEtherWash {
+    background: url(images/thedao-wash.png)
+        no-repeat  center center;
+    height: 100%;
+    width: 100%;
+    top: 10px;
+    left: 5px;
+    position: fixed;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+div.imageDashWash {
+    background: url(images/dash-wash.png)
+        no-repeat  center center;
+    height: 100%;
+    width: 100%;
+    top: 10px;
+    left: 5px;
+    position: fixed;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+div.imageEtherClassicWash {
+    background: url(images/ether-classic-wash.png)
+        no-repeat  center center;
+    height: 100%;
+    width: 100%;
+    top: 10px;
+    left: 5px;
+    position: fixed;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+div.imageAugurEtherWash {
+    background: url(images/augur-wash.png)
+        no-repeat  center center;
+    height: 100%;
+    width: 100%;
+    top: 10px;
+    left: 5px;
+    position: fixed;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+div.imageIconomiEtherWash {
+    background: url(images/Iconomi-wash.png)
+        no-repeat  center center;
+    height: 100%;
+    width: 100%;
+    top: 10px;
+    left: 5px;
+    position: fixed;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+div.imageGolemEtherWash {
+    background: url(images/Golem-wash.png)
+        no-repeat  center center;
+    height: 100%;
+    width: 100%;
+    top: 10px;
+    left: 5px;
+    position: fixed;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+div.imageGnosisEtherWash {
+    background: url(images/Gnosis-wash.png)
+        no-repeat  center center;
+    height: 100%;
+    width: 100%;
+    top: 10px;
+    left: 5px;
+    position: fixed;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+div.imageSingulardtvEtherWash {
+    background: url(images/SingularDTV-wash.png)
+        no-repeat  center center;
+    height: 100%;
+    width: 100%;
+    top: 10px;
+    left: 5px;
+    position: fixed;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+div.imageDigixEtherWash {
+    background: url(images/Digix-wash.png)
+        no-repeat  center center;
+    height: 100%;
+    width: 100%;
+    top: 10px;
+    left: 5px;
+    position: fixed;
+    opacity: 0.3;
+    z-index: -1;
+}
+div.imageBlockchainCapitalWash {
+    background: url(images/BlockchainCapital-wash.png)
+        no-repeat  center center;
+    height: 100%;
+    width: 100%;
+    top: 10px;
+    left: 5px;
+    position: fixed;
+    opacity: 0.3;
+    z-index: -1;
+}
+div.imageCivicEtherWash {
+    background: url(images/Civic-wash.png)
+        no-repeat  center center;
+    height: 100%;
+    width: 100%;
+    top: 10px;
+    left: 5px;
+    position: fixed;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+div.imageLitecoinWash {
+    background: url(images/litecoin-wash.png)
+        no-repeat center center;
+    height: 100%;
+    width: 100%;
+    top: 10px;
+    left: 5px;
+    position: fixed;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+div.imageDogeWash {
+    background: url(images/doge-wash.png)
+        no-repeat center center;
+    height: 100%;
+    width: 100%;
+    top: 10px;
+    left: 5px;
+    position: fixed;
+    opacity: 0.2;
+    z-index: -1;
+}
+div.imageLiskWash {
+    background: url(images/lisk-wash.png)
+        no-repeat center center;
+    height: 100%;
+    width: 100%;
+    top: 10px;
+    left: 5px;
+    position: fixed;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+div.imageZCashWash {
+    background: url(images/zcash-wash.png)
+        no-repeat center center;
+    height: 100%;
+    width: 100%;
+    top: 10px;
+    left: 5px;
+    position: fixed;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+div.imageRootstockWash {
+    background: url(images/rootstock-wash.png)
+        no-repeat center center;
+    height: 100%;
+    width: 100%;
+    top: 10px;
+    left: 5px;
+    position: fixed;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+div.imageJaxxKrypto {
+    background: url(images/jaxx-krypto-01.svg)
+        no-repeat center center;
+    height: 40px;
+    margin-top: 12px;
+    position:relative;
+    left: -2%;
+}
+/* Display Priate Keys images */
+.cssPrice .imgTransactionBrand {
+    /* float: right; */
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+}
+.cssPrice .imgTransactionBrand.imgDAO {
+    width: 20px;
+    height: 30px; 
+    background: url(images/logo-default.png)
+        no-repeat center center;
+    background-size: 85%;
+	margin-left: 5px;
+}
+.cssPrice .imgTransactionBrand.imgShapeShift {
+    width: 20px;
+    height: 30px; 
+    background: url(images/shapeShift.png)
+        no-repeat center center;
+    background-size: 80%;
+}
+.cssPrice .imgTransactionBrand.imgBTC {
+    width: 20px;
+    height: 30px; 
+    background: url(images/Bitcoin_icon.png)
+        no-repeat center center;
+    background-size: 100%;
+}
+.cssPrice .imgTransactionBrand.imgETH {
+    width: 20px;
+    height: 30px; 
+    background: url(images/ether-new.png)
+        no-repeat center center;
+    background-size: 100%;
+}
+.cssPrice .imgTransactionBrand.imgETC {
+  width: 20px;
+  height: 30px;
+  background: url(images/ether-classic-new.png)
+  no-repeat center center;
+  background-size: 100%;
+}
+.cssPrice .imgTransactionBrand.imgDASH {
+    width: 20px;
+    height: 30px; 
+    background: url(images/dash-icon.png)
+        no-repeat center center;
+    background-size: 100%;
+}
+.cssPrice .imgTransactionBrand.imgSBTC {
+    width: 20px;
+    height: 30px; 
+    background: url(images/Rootstock_icon.png)
+        no-repeat center center;
+    background-size: 100%;
+}
+
+.pairFromDevice .cssbackupTab2 h2 {
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.cssInvisibleParagraphs {
+    overflow: auto;
+}
+
+.cssPrice .imgTransactionBrand.imgREP {
+    width: 20px;
+    height: 30px; 
+    background: url(images/REPlogo.png)
+        no-repeat center center;
+    background-size: 85%;
+}
+.cssPrice .imgTransactionBrand.imgICO {
+    width: 20px;
+    height: 30px; 
+    background: url(images/ICOlogo.png)
+        no-repeat center center;
+    background-size: 85%;
+}
+.cssPrice .imgTransactionBrand.imgGNT {
+    width: 20px;
+    height: 30px; 
+    background: url(images/GNTlogo.png)
+        no-repeat center center;
+    background-size: 85%;
+}
+.cssPrice .imgTransactionBrand.imgGNO {
+    width: 20px;
+    height: 30px; 
+    background: url(images/GNOlogo.png)
+        no-repeat center center;
+    background-size: 85%;
+}
+.cssPrice .imgTransactionBrand.imgSNGLS {
+    width: 20px;
+    height: 30px; 
+    background: url(images/SNGLSlogo.png)
+        no-repeat center center;
+    background-size: 85%;
+}
+.cssPrice .imgTransactionBrand.imgDGD {
+    width: 20px;
+    height: 30px; 
+    background: url(images/DGDlogo.png)
+        no-repeat center center;
+    background-size: 85%;
+}
+.cssPrice .imgTransactionBrand.imgBCAP {
+    width: 20px;
+    height: 30px; 
+    background: url(images/BCAPlogo.png)
+        no-repeat center center;
+    background-size: 85%;
+}
+.cssPrice .imgTransactionBrand.imgCVC {
+    width: 20px;
+    height: 30px; 
+    background: url(images/CVClogo.png)
+        no-repeat center center;
+    background-size: 85%;
+}
+
+.cssPrice .imgTransactionBrand.imgLTC {
+    width: 20px;
+    height: 30px; 
+    background: url(images/litecoinBig.png)
+        no-repeat center center;
+    background-size: 100%;
+}
+.cssPrice .imgTransactionBrand.imgDGE {
+    width: 20px;
+    height: 30px; 
+    background: url(images/doge_for_select.svg)
+        no-repeat center center;
+    background-size: 100%;
+}
+.cssPrice .imgTransactionBrand.imgXMR {
+    width: 20px;
+    height: 30px; 
+    background: url(images/moneroBig.png)
+        no-repeat center center;
+    background-size: 100%;
+}
+.cssPrice .imgTransactionBrand.imgLSK {
+    width: 20px;
+    height: 30px; 
+    background: url(images/lisk_for_select.svg)
+        no-repeat center center;
+    background-size: 100%;
+}
+.cssPrice .imgTransactionBrand.imgZEC {
+    width: 20px;
+    height: 30px; 
+    background: url(images/zcash_for_select.svg)
+        no-repeat center center;
+    background-size: 100%;
+}
